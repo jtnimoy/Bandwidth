@@ -23,6 +23,7 @@ using namespace std;
 
 class Line{
 public:
+        Line();
 	Line(int xx,int yy);
 	void step();
 	float x;

@@ -316,42 +316,48 @@ void testApp::mousePressed(int x, int y, int button){
     int mx = mouseX;
     int my = mouseY;
     
-    if(      ofDist(BUTTONRAD                 ,ofGetHeight()-BUTTONRAD,mx,my) < BUTTONRAD && showSceneSwitcher){
+    if(      ofDist(BUTTONRAD,
+		    ofGetHeight()-BUTTONRAD,mx,my) < BUTTONRAD && showSceneSwitcher){
 		buttonAlpha[0] = 255;
         if(buttonActive == 0){
             scenes[0]->reset();
         }else{
             buttonActive = 0;
         }
-    }else if(ofDist(BUTTONRAD +    (BUTTONRAD*2+BUTTONMARGIN),ofGetHeight()-BUTTONRAD,mx,my) < BUTTONRAD && showSceneSwitcher){
+    }else if(ofDist(BUTTONRAD +    (BUTTONRAD*2+BUTTONMARGIN),
+		    ofGetHeight()-BUTTONRAD,mx,my) < BUTTONRAD && showSceneSwitcher){
 		buttonAlpha[1] = 255;
         if(buttonActive == 1){
             scenes[1]->reset();   
         }else{
             buttonActive = 1;
         }
-    }else if(ofDist(BUTTONRAD + 2 *(BUTTONRAD*2+BUTTONMARGIN),ofGetHeight()-BUTTONRAD,mx,my) < BUTTONRAD && showSceneSwitcher){
+    }else if(ofDist(BUTTONRAD + 2 *(BUTTONRAD*2+BUTTONMARGIN),
+		    ofGetHeight()-BUTTONRAD,mx,my) < BUTTONRAD && showSceneSwitcher){
 		buttonAlpha[2] = 255;
         if(buttonActive == 2){
             scenes[2]->reset();   
         }else{
             buttonActive = 2;
         }
-    }else if(ofDist(BUTTONRAD + 3 *(BUTTONRAD*2+BUTTONMARGIN),ofGetHeight()-BUTTONRAD,mx,my) < BUTTONRAD && showSceneSwitcher){
+    }else if(ofDist(BUTTONRAD + 3 *(BUTTONRAD*2+BUTTONMARGIN),
+		    ofGetHeight()-BUTTONRAD,mx,my) < BUTTONRAD && showSceneSwitcher){
 		buttonAlpha[3] = 255;
         if(buttonActive == 3){
             scenes[3]->reset();   
         }else{
             buttonActive = 3;
         }
-    }else if(ofDist(BUTTONRAD + 4 *(BUTTONRAD*2+BUTTONMARGIN),ofGetHeight()-BUTTONRAD,mx,my) < BUTTONRAD && showSceneSwitcher){
+    }else if(ofDist(BUTTONRAD + 4 *(BUTTONRAD*2+BUTTONMARGIN),
+		    ofGetHeight()-BUTTONRAD,mx,my) < BUTTONRAD && showSceneSwitcher){
 		buttonAlpha[4] = 255;
         if(buttonActive == 4){
             scenes[4]->reset();   
         }else{
             buttonActive = 4;
         }
-    }else if(ofDist(BUTTONRAD + 5 *(BUTTONRAD*2+BUTTONMARGIN),ofGetHeight()-BUTTONRAD,mx,my) < BUTTONRAD && showSceneSwitcher){
+    }else if(ofDist(BUTTONRAD + 5 *(BUTTONRAD*2+BUTTONMARGIN),
+		    ofGetHeight()-BUTTONRAD,mx,my) < BUTTONRAD && showSceneSwitcher){
 		buttonAlpha[5] = 255;
         if(buttonActive == 5){
             scenes[5]->reset();   
