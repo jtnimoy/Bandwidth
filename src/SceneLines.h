@@ -30,7 +30,7 @@ public:
     void mousePressed(int x,int y,int button);
     void mouseReleased(int x,int y,int button);
     void reset();
-    std::vector<Line*>lines;
+    std::vector<JTLine*>lines;
 	static SceneLines* instance;
 	ofSoundPlayer snd0;
     

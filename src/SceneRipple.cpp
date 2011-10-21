@@ -108,7 +108,6 @@ void SceneRipple::update(){
 		testApp::instance->oscIn.getNextMessage(&m);
 		int frame = m.getArgAsInt32(0);
 		float speed = m.getArgAsFloat(1);
-		cout << "OSC IN " << frame << ' ' << speed << endl;
         
         if(ofRandomuf()>0.5)balls.push_back( new RippleBall(ofRandomuf() * ofGetScreenWidth() , ofRandomuf() * ofGetScreenHeight() ) );
         

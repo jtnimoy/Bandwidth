@@ -68,7 +68,7 @@ void SceneLines::setup(){
 
 void SceneLines::update(){
     
-    std::vector<Line*>::iterator it;
+    std::vector<JTLine*>::iterator it;
     
     for(it=lines.begin();it!=lines.end();it++){
 		(*it)->step();
@@ -104,7 +104,7 @@ void SceneLines::update(){
 		float speed = m.getArgAsFloat(1);
         
         if(ofRandomuf()>0.8){
-            lines.push_back( new Line(ofRandomuf() * ofGetScreenWidth() , ofRandomuf() * ofGetScreenHeight() ) );
+            lines.push_back( new JTLine(ofRandomuf() * ofGetScreenWidth() , ofRandomuf() * ofGetScreenHeight() ) );
         }
         
         
@@ -119,7 +119,7 @@ void SceneLines::update(){
 
 void SceneLines::draw(float alpha){
     glBlendFunc(GL_SRC_ALPHA,GL_ONE);
-    std::vector<Line*>::iterator it;
+    std::vector<JTLine*>::iterator it;
     for(it=lines.begin();it!=lines.end();it++){
         (*it)->draw(alpha);
     }
@@ -142,7 +142,7 @@ void SceneLines::mouseMoved(int x,int y){
 
 void SceneLines::mouseDragged(int x,int y,int button){
     if(lines.size() > 0){
-        Line *thisLine = lines.back();
+        JTLine *thisLine = lines.back();
         thisLine->dest_x2 = x;//(x - thisLine->x2) * 0.1;
         thisLine->dest_y2 = y;//(y - thisLine->y2) * 0.1;
     }
@@ -152,7 +152,7 @@ void SceneLines::mouseDragged(int x,int y,int button){
 //---------------------------------------------------
 
 void SceneLines::mousePressed(int x,int y,int button){
-    Line*thisLine = new Line(x,y);
+    JTLine*thisLine = new JTLine(x,y);
     lines.push_back(thisLine);
 
 }

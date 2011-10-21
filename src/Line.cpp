@@ -1,5 +1,5 @@
 /*
- *  Line.cpp
+ *  JTLine.cpp
  *  emptyExample
  *
 
@@ -17,7 +17,7 @@
 #include "testApp.h"
 
 
-Line::Line(){
+JTLine::JTLine(){
   
 
 }
@@ -26,7 +26,7 @@ Line::Line(){
 
 
 
-Line::Line(int xx,int yy){
+JTLine::JTLine(int xx,int yy){
 	x=xx;
 	y=yy;
     x2 = ofGetScreenWidth() * ofRandomuf();
@@ -51,7 +51,7 @@ Line::Line(int xx,int yy){
 
 
 
-void Line::step(){    
+void JTLine::step(){    
     
     x2 += (dest_x2 - x2) * 0.1;
     y2 += (dest_y2 - y2) * 0.1;
@@ -81,7 +81,7 @@ void Line::step(){
     slope = (y4 - y3) / (x4 - x3);
     elevation = y4 - slope * x4;
     
-    vector<Line*>::iterator it;    
+    vector<JTLine*>::iterator it;    
     float screenW = ofGetScreenWidth();
     float screenH = ofGetScreenHeight();
     for(it = SceneLines::instance->lines.begin(); it != SceneLines::instance->lines.end() ; it ++ ){
@@ -125,7 +125,7 @@ void Line::step(){
 //--------------------------------------------
 
 
-void Line::draw(float alpha){
+void JTLine::draw(float alpha){
     
     //draw line
     ofNoFill();
@@ -170,13 +170,13 @@ void Line::draw(float alpha){
 
 //--------------------------------------------
 
-bool Line::pointAbove(float xx,float yy){
+bool JTLine::pointAbove(float xx,float yy){
     return slope * xx + elevation > yy;
 }
 
 //--------------------------------------------
 
-void Line::sound(){
+void JTLine::sound(){
     SceneLines::instance->snd0.setSpeed(
                             SceneLines::instance->welltempered[
                                      (int)((1.0 - (ballY / ofGetScreenHeight() ) ) * 12)
@@ -189,7 +189,7 @@ void Line::sound(){
 //--------------------------------------------
 
 
-void Line::crossed(){
+void JTLine::crossed(){
     pluckCounter+=2;
 }
 

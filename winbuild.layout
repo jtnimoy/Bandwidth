@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="release" />
+	<File name="src\ContactListener.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="1207" topLine="37" />
+	</File>
+	<File name="src\Line.cpp" open="1" top="0" tabpos="10">
+		<Cursor position="386" topLine="0" />
+	</File>
+	<File name="src\Line.h" open="1" top="0" tabpos="11">
+		<Cursor position="964" topLine="30" />
+	</File>
+	<File name="src\MColor.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="3834" topLine="227" />
+	</File>
+	<File name="src\MColor.h" open="1" top="0" tabpos="4">
+		<Cursor position="422" topLine="16" />
+	</File>
+	<File name="src\SceneLines.cpp" open="1" top="0" tabpos="12">
+		<Cursor position="2025" topLine="68" />
+	</File>
+	<File name="src\SceneLines.h" open="1" top="0" tabpos="9">
+		<Cursor position="794" topLine="7" />
+	</File>
+	<File name="src\Vine.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="127" topLine="0" />
+	</File>
+	<File name="src\Vine.h" open="1" top="0" tabpos="7">
+		<Cursor position="253" topLine="0" />
+	</File>
+	<File name="src\main.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\testApp.cpp" open="1" top="1" tabpos="5">
+		<Cursor position="427" topLine="0" />
+	</File>
+	<File name="src\testApp.h" open="1" top="0" tabpos="6">
+		<Cursor position="207" topLine="1" />
+	</File>
+</CodeBlocks_layout_file>

@@ -107,7 +107,6 @@ void SceneGalaxy::update(){
 		oscIn.getNextMessage(&m);
 		int frame = m.getArgAsInt32(0);
 		float speed = m.getArgAsFloat(1);
-		cout << "OSC IN " << frame << ' ' << speed << endl;
         
         if(ofRandomuf()>0.8)stars.push_back(new Star(ofVec2f( (int)(ofRandomuf()*Star::screenLowWidth),(int)(ofRandomuf()*Star::screenLowHeight) )));
         

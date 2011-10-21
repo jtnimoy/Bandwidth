@@ -9,8 +9,9 @@
 
 #include "testApp.h"
 #include "MColor.h"
-#include <fstream.h>
-#include <iostream.h>
+#include <fstream>
+#include <iostream>
+
 using namespace std;
 
 
@@ -48,7 +49,11 @@ void testApp::setup(){
 	
 	ofEnableSmoothing();
     glHint(GL_LINE_SMOOTH_HINT,GL_NICEST);
-	ofSetFrameRate(60);
+    
+    int frameRate;
+    yamlDoc["frame rate"] >> frameRate;
+    
+	ofSetFrameRate(frameRate);
 	ofHideCursor();
     
     for(int i=0;i<6;i++){
@@ -173,6 +178,7 @@ void testApp::draw(){
     //buttons
     
     if(showSceneSwitcher){
+        ofSetCircleResolution(36);
         
         ofNoFill();
         for(int i=0;i<6;i++){
@@ -181,7 +187,7 @@ void testApp::draw(){
             }else{
                 ofSetColor(90,90,90);
             }
-            ofCircle(BUTTONRAD + i*(BUTTONRAD*2 + BUTTONMARGIN),ofGetHeight()-BUTTONRAD,BUTTONRAD);
+            ofCircle(BUTTONRAD + i*(BUTTONRAD*2 + BUTTONMARGIN),ofGetHeight()-BUTTONRAD-1,BUTTONRAD);
         }
         ofFill();
                 
@@ -191,7 +197,7 @@ void testApp::draw(){
             }else{
                 ofSetColor(90,90,90,buttonAlpha[i]);
             }
-            ofCircle(BUTTONRAD + i*(BUTTONRAD*2 + BUTTONMARGIN),ofGetHeight()-BUTTONRAD,BUTTONRAD);
+            ofCircle(BUTTONRAD + i*(BUTTONRAD*2 + BUTTONMARGIN),ofGetHeight()-BUTTONRAD-1,BUTTONRAD);
 
             
             if(buttonActive==i){
@@ -199,9 +205,11 @@ void testApp::draw(){
             }else{
                 ofSetColor(90,90,90,255);
             }
-            buttonImages[i].draw(i*(BUTTONRAD*2 + BUTTONMARGIN),ofGetHeight()-BUTTONRAD*2);
+            buttonImages[i].draw(i*(BUTTONRAD*2 + BUTTONMARGIN),ofGetHeight()-BUTTONRAD*2-1);
 
         }
+        ofSetCircleResolution(24);
+
     }
     
     //dark overlay

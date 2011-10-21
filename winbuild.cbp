@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Bandwidth" />
+		<Option makefile="makefile" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="addons\;src\;" />
+		<Build>
+			<Target title="release">
+				<Option output="bin\$(PROJECT_NAME)" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj\release" />
+				<Option external_deps="..\..\..\libs\openFrameworksCompiled\lib\win_cb\openFrameworks.lib;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="../../../libs/openFrameworksCompiled/lib/win_cb/openFrameworks.lib" />
+				</Linker>
+			</Target>
+			<Target title="debug">
+				<Option output="bin\$(PROJECT_NAME)_DEBUG" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj\debug\" />
+				<Option external_deps="..\..\..\libs\openFrameworksCompiled\lib\win_cb\openFrameworksDebug.lib;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="../../../libs/openFrameworksCompiled/lib/win_cb/openFrameworksDebug.lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wno-multichar" />
+			<Add directory="..\..\..\libs\glu\include" />
+			<Add directory="..\..\..\libs\freetype\include" />
+			<Add directory="..\..\..\libs\freetype\include\freetype2" />
+			<Add directory="..\..\..\libs\FreeImage\include" />
+			<Add directory="..\..\..\libs\quicktime\include" />
+			<Add directory="..\..\..\libs\rtAudio\include" />
+			<Add directory="..\..\..\libs\fmodex\include" />
+			<Add directory="..\..\..\libs\videoInput\include" />
+			<Add directory="..\..\..\libs\glew\include" />
+			<Add directory="..\..\..\libs\glut\include" />
+			<Add directory="..\..\..\libs\openFrameworks" />
+			<Add directory="..\..\..\libs\openFrameworks\3d" />
+			<Add directory="..\..\..\libs\openFrameworks\app" />
+			<Add directory="..\..\..\libs\openFrameworks\communication" />
+			<Add directory="..\..\..\libs\openFrameworks\events" />
+			<Add directory="..\..\..\libs\openFrameworks\gl" />
+			<Add directory="..\..\..\libs\openFrameworks\graphics" />
+			<Add directory="..\..\..\libs\openFrameworks\math" />
+			<Add directory="..\..\..\libs\openFrameworks\sound" />
+			<Add directory="..\..\..\libs\openFrameworks\types" />
+			<Add directory="..\..\..\libs\openFrameworks\utils" />
+			<Add directory="..\..\..\libs\openFrameworks\video" />
+			<Add directory="..\..\..\libs\poco\include" />
+			<Add directory="..\..\..\libs\tess2\include" />
+			<Add directory="..\..\..\libs\cairo\include\cairo" />
+			<Add directory="..\..\..\libs\Box2D_v2.2.0\Box2D" />
+			<Add directory="..\..\..\addons\ofxOsc\src" />
+			<Add directory="..\..\..\addons\ofxOsc\libs\oscpack\include\ip" />
+			<Add directory="..\..\..\addons\ofxOsc\libs\oscpack\include\osc" />
+			<Add directory="..\..\..\libs\yaml-cpp-0.2.7\include" />
+		</Compiler>
+		<Linker>
+			<Add option="../../../addons/ofxOsc/libs/oscpack/lib/win_cb/oscpack.a" />
+			<Add library="..\..\..\libs\FreeImage\lib\win_cb\FreeImage.lib" />
+			<Add library="..\..\..\libs\rtAudio\lib\win_cb\librtaudio.a" />
+			<Add library="..\..\..\libs\quicktime\lib\win_cb\qtmlClient.lib" />
+			<Add library="..\..\..\libs\cairo\lib\win_cb\libcairo.a" />
+			<Add library="..\..\..\libs\cairo\lib\win_cb\libpixman-1.a" />
+			<Add library="..\..\..\libs\freetype\lib\win_cb\libfreetype.a" />
+			<Add library="..\..\..\libs\glut\lib\win_cb\libglut.a" />
+			<Add library="..\..\..\libs\videoInput\lib\win_cb\videoInputLib.a" />
+			<Add library="..\..\..\libs\fmodex\lib\win_cb\libfmodex.a" />
+			<Add library="..\..\..\libs\glew\lib\win_cb\glew32s.lib" />
+			<Add library="..\..\..\libs\glu\lib\win_cb\glu32.lib" />
+			<Add library="..\..\..\libs\poco\lib\win_cb\libPocoNetmt.a" />
+			<Add library="..\..\..\libs\poco\lib\win_cb\libPocoUtilmt.a" />
+			<Add library="..\..\..\libs\poco\lib\win_cb\libPocoXMLmt.a" />
+			<Add library="..\..\..\libs\poco\lib\win_cb\libPocoFoundationmt.a" />
+			<Add library="..\..\..\libs\tess2\lib\win_cb\libtess2.a" />
+			<Add library="opengl32" />
+			<Add library="gdi32" />
+			<Add library="msimg32" />
+			<Add library="glu32" />
+			<Add library="dsound" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add library="strmbase" />
+			<Add library="strmiids" />
+			<Add library="z" />
+			<Add library="uuid" />
+			<Add library="ole32" />
+			<Add library="oleaut32" />
+			<Add library="setupapi" />
+			<Add library="wsock32" />
+			<Add library="ws2_32" />
+			<Add library="Iphlpapi" />
+			<Add library="..\..\..\libs\Box2D_v2.2.0\Box2D\Box2D\libBox2D.a" />
+		</Linker>
+		<ExtraCommands>
+			<Add after='xcopy /e /i /y &quot;$(PROJECT_DIR)..\..\..\export\win_cb\*.dll&quot;  &quot;$(PROJECT_DIR)bin&quot;' />
+			<Add after='cmd /c if not exist &quot;$(PROJECT_DIR)bin/data&quot; mkdir &quot;$(PROJECT_DIR)bin/data&quot;' />
+			<Mode after="always" />
+		</ExtraCommands>
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\include\ip\IpEndpointName.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\include\ip\NetworkingUtils.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\include\ip\PacketListener.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\include\ip\TimerListener.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\include\ip\UdpSocket.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\src\ofxOsc.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\src\ofxOscArg.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\src\ofxOscBundle.cpp" />
+		<Unit filename="..\..\..\addons\ofxOsc\src\ofxOscBundle.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\src\ofxOscMessage.cpp" />
+		<Unit filename="..\..\..\addons\ofxOsc\src\ofxOscMessage.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\src\ofxOscReceiver.cpp" />
+		<Unit filename="..\..\..\addons\ofxOsc\src\ofxOscReceiver.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\src\ofxOscSender.cpp" />
+		<Unit filename="..\..\..\addons\ofxOsc\src\ofxOscSender.h" />
+		<Unit filename="src\BumperBodyData.cpp" />
+		<Unit filename="src\BumperBodyData.h" />
+		<Unit filename="src\ContactListener.cpp" />
+		<Unit filename="src\ContactListener.h" />
+		<Unit filename="src\GridBall.cpp" />
+		<Unit filename="src\GridBall.h" />
+		<Unit filename="src\Line.cpp" />
+		<Unit filename="src\Line.h" />
+		<Unit filename="src\MColor.cpp" />
+		<Unit filename="src\MColor.h" />
+		<Unit filename="src\RippleBall.cpp" />
+		<Unit filename="src\RippleBall.h" />
+		<Unit filename="src\Scene.cpp" />
+		<Unit filename="src\Scene.h" />
+		<Unit filename="src\SceneBumpers.cpp" />
+		<Unit filename="src\SceneBumpers.h" />
+		<Unit filename="src\SceneGalaxy.cpp" />
+		<Unit filename="src\SceneGalaxy.h" />
+		<Unit filename="src\SceneGrid.cpp" />
+		<Unit filename="src\SceneGrid.h" />
+		<Unit filename="src\SceneLines.cpp" />
+		<Unit filename="src\SceneLines.h" />
+		<Unit filename="src\SceneRipple.cpp" />
+		<Unit filename="src\SceneRipple.h" />
+		<Unit filename="src\SceneVines.cpp" />
+		<Unit filename="src\SceneVines.h" />
+		<Unit filename="src\Star.cpp" />
+		<Unit filename="src\Star.h" />
+		<Unit filename="src\VInesContactListener.cpp" />
+		<Unit filename="src\VInesContactListener.h" />
+		<Unit filename="src\Vine.cpp" />
+		<Unit filename="src\Vine.h" />
+		<Unit filename="src\main.cpp">
+			<Option virtualFolder="src" />
+		</Unit>
+		<Unit filename="src\testApp.cpp">
+			<Option virtualFolder="src" />
+		</Unit>
+		<Unit filename="src\testApp.h">
+			<Option virtualFolder="src" />
+		</Unit>
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\aliasmanager.cpp" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\collectionstack.h" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\conversion.cpp" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\directives.cpp" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\directives.h" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\emitfromevents.cpp" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\emitter.cpp" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\emitterstate.cpp" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\emitterstate.h" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\emitterutils.cpp" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\emitterutils.h" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\exp.cpp" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\exp.h" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\indentation.h" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\iterator.cpp" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\iterpriv.h" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\node.cpp" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\nodebuilder.cpp" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\nodebuilder.h" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\nodeownership.cpp" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\nodeownership.h" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\null.cpp" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\ostream.cpp" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\parser.cpp" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\ptr_stack.h" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\ptr_vector.h" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\regex.cpp" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\regex.h" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\regeximpl.h" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\scanner.cpp" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\scanner.h" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\scanscalar.cpp" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\scanscalar.h" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\scantag.cpp" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\scantag.h" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\scantoken.cpp" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\setting.h" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\simplekey.cpp" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\singledocparser.cpp" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\singledocparser.h" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\stream.cpp" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\stream.h" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\streamcharsource.h" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\stringsource.h" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\tag.cpp" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\tag.h" />
+		<Unit filename="..\..\..\libs\yaml-cpp-0.2.7\src\token.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -87,7 +87,6 @@ void SceneVines::update(){
 		oscIn.getNextMessage(&m);
 		int frame = m.getArgAsInt32(0);
 		float speed = m.getArgAsFloat(1);
-		cout << "OSC IN " << frame << ' ' << speed << endl;
         
         
 		vines[(int)(ofRandomuf()*(vines.size()-1))]->ball->ApplyForceToCenter(b2Vec2(0,speed * -1000000000.0));

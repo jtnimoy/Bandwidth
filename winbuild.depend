@@ -1,0 +1,3524 @@
+# depslib dependency file v1.0
+1315552098 source:c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth_win\src\mcolor.cpp
+	"MColor.h"
+	<iostream>
+
+1315552036 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth_win\src\mcolor.h
+	"ofMain.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\ofmain.h
+	"ofConstants.h"
+	"ofFileUtils.h"
+	"ofLog.h"
+	"ofSystemUtils.h"
+	"ofThread.h"
+	"ofURLFileLoader.h"
+	"ofUtils.h"
+	"ofBaseTypes.h"
+	"ofTypes.h"
+	"ofColor.h"
+	"ofPoint.h"
+	"ofRectangle.h"
+	"ofMath.h"
+	"ofVectorMath.h"
+	"ofSerial.h"
+	"ofArduino.h"
+	"ofFbo.h"
+	"ofGLRenderer.h"
+	"ofGLUtils.h"
+	"ofLight.h"
+	"ofMaterial.h"
+	"ofShader.h"
+	"ofTexture.h"
+	"ofVbo.h"
+	"ofVboMesh.h"
+	"ofCairoRenderer.h"
+	"ofGraphics.h"
+	"ofImage.h"
+	"ofPath.h"
+	"ofPixels.h"
+	"ofPolyline.h"
+	"ofRendererCollection.h"
+	"ofTessellator.h"
+	"ofTrueTypeFont.h"
+	"ofBaseApp.h"
+	"ofAppRunner.h"
+	"ofSoundStream.h"
+	"ofSoundPlayer.h"
+	"ofVideoGrabber.h"
+	"ofVideoPlayer.h"
+	"ofEvents.h"
+	"of3dUtils.h"
+	"ofCamera.h"
+	"ofEasyCam.h"
+	"ofMesh.h"
+	"ofNode.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\utils\ofconstants.h
+	<TargetConditionals.h>
+	<windows.h>
+	"GL\glew.h"
+	"GL\wglew.h"
+	"glu.h"
+	<unistd.h>
+	"GL/glew.h"
+	<OpenGL/gl.h>
+	<ApplicationServices/ApplicationServices.h>
+	<unistd.h>
+	<GL/glew.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	<unistd.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	"glu.h"
+	"tesselator.h"
+	<cstdlib>
+	<cstdio>
+	<cstdarg>
+	<cmath>
+	<ctime>
+	<cstdlib>
+	<string>
+	<iostream>
+	<vector>
+	<cstring>
+	<sstream>
+	<iomanip>
+	<fstream>
+
+1311281778 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1311281778 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\glew\include\gl\wglew.h
+	<windows.h>
+
+1311281778 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\glu\include\glu.h
+	"glu_mangle.h"
+	<GL/gl.h>
+
+1311281800 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\tess2\include\tesselator.h
+	<TargetConditionals.h>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\utils\offileutils.h
+	"ofConstants.h"
+	"Poco/File.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\file.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+	<vector>
+	"File_WINCE.h"
+	"Poco/File_WIN32U.h"
+	"Poco/File_WIN32.h"
+	"Poco/File_UNIX.h"
+	"Poco/File_VMS.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\foundation.h
+	"Poco/Config.h"
+	"Poco/Platform.h"
+	"Poco/Platform_WIN32.h"
+	"Poco/Platform_VMS.h"
+	"Poco/Platform_POSIX.h"
+	"Poco/Bugcheck.h"
+	"Poco/Types.h"
+	<string>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\config.h
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\platform.h
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\platform_win32.h
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\platform_vms.h
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\platform_posix.h
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\bugcheck.h
+	"Poco/Foundation.h"
+	<string>
+	<iostream>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\types.h
+	"Poco/Foundation.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\timestamp.h
+	"Poco/Foundation.h"
+	<ctime>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\file_wince.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\file_win32u.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\file_win32.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\file_unix.h
+	"Poco/Foundation.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\file_vms.h
+	"Poco/Foundation.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\utils\oflog.h
+	"ofConstants.h"
+	"ofFileUtils.h"
+	"ofTypes.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\types\oftypes.h
+	"ofConstants.h"
+	"ofColor.h"
+	<memory>
+	<tr1/memory>
+	"Poco/Mutex.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\types\ofcolor.h
+	<limits>
+	"ofMath.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\math\ofmath.h
+	"ofPoint.h"
+	"ofConstants.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\types\ofpoint.h
+	"ofVec3f.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\math\ofvec3f.h
+	"ofVec2f.h"
+	"ofVec4f.h"
+	"ofConstants.h"
+	<cmath>
+	<iostream>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\math\ofvec2f.h
+	"ofConstants.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\math\ofvec4f.h
+	"ofConstants.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\mutex.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/ScopedLock.h"
+	"Poco/Mutex_WINCE.h"
+	"Poco/Mutex_WIN32.h"
+	"Poco/Mutex_POSIX.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\exception.h
+	"Poco/Foundation.h"
+	<stdexcept>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\scopedlock.h
+	"Poco/Foundation.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\mutex_wince.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/UnWindows.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\unwindows.h
+	<windows.h>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\mutex_win32.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/UnWindows.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\mutex_posix.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<pthread.h>
+	<errno.h>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\utils\ofsystemutils.h
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\utils\ofthread.h
+	"ofConstants.h"
+	"ofTypes.h"
+	<process.h>
+	<pthread.h>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\utils\ofurlfileloader.h
+	<deque>
+	<queue>
+	"ofThread.h"
+	"ofEvents.h"
+	"ofFileUtils.h"
+	"Poco/Condition.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\events\ofevents.h
+	"ofConstants.h"
+	"ofPoint.h"
+	"ofEventUtils.h"
+	"ofxEventUtils.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\events\ofeventutils.h
+	"ofConstants.h"
+	"Poco/FIFOEvent.h"
+	"Poco/Delegate.h"
+	<stdio.h>
+	<stdlib.h>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\fifoevent.h
+	"Poco/AbstractEvent.h"
+	"Poco/FIFOStrategy.h"
+	"Poco/AbstractDelegate.h"
+	"Poco/CompareFunctions.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\abstractevent.h
+	"Poco/Foundation.h"
+	"Poco/SingletonHolder.h"
+	"Poco/SharedPtr.h"
+	"Poco/ActiveResult.h"
+	"Poco/ActiveMethod.h"
+	"Poco/Mutex.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\singletonholder.h
+	"Poco/Foundation.h"
+	"Poco/Mutex.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\sharedptr.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/AtomicCounter.h"
+	<algorithm>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\atomiccounter.h
+	"Poco/Foundation.h"
+	"Poco/UnWindows.h"
+	<libkern/OSAtomic.h>
+	"Poco/Mutex.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\activeresult.h
+	"Poco/Foundation.h"
+	"Poco/Mutex.h"
+	"Poco/Event.h"
+	"Poco/RefCountedObject.h"
+	"Poco/Exception.h"
+	<algorithm>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\event.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/Event_WIN32.h"
+	"Poco/Event_POSIX.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\event_win32.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/UnWindows.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\event_posix.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<pthread.h>
+	<errno.h>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\refcountedobject.h
+	"Poco/Foundation.h"
+	"Poco/AtomicCounter.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\activemethod.h
+	"Poco/Foundation.h"
+	"Poco/ActiveResult.h"
+	"Poco/ActiveRunnable.h"
+	"Poco/ActiveStarter.h"
+	"Poco/AutoPtr.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\activerunnable.h
+	"Poco/Foundation.h"
+	"Poco/ActiveResult.h"
+	"Poco/Runnable.h"
+	"Poco/RefCountedObject.h"
+	"Poco/AutoPtr.h"
+	"Poco/Exception.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\runnable.h
+	"Poco/Foundation.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\autoptr.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<algorithm>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\activestarter.h
+	"Poco/Foundation.h"
+	"Poco/ThreadPool.h"
+	"Poco/ActiveRunnable.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\threadpool.h
+	"Poco/Foundation.h"
+	"Poco/Thread.h"
+	"Poco/Mutex.h"
+	<vector>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\thread.h
+	"Poco/Foundation.h"
+	"Poco/Mutex.h"
+	"Poco/Thread_WINCE.h"
+	"Poco/Thread_WIN32.h"
+	"Poco/Thread_POSIX.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\thread_wince.h
+	"Poco/Foundation.h"
+	"Poco/Runnable.h"
+	"Poco/UnWindows.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\thread_win32.h
+	"Poco/Foundation.h"
+	"Poco/Runnable.h"
+	"Poco/UnWindows.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\thread_posix.h
+	"Poco/Foundation.h"
+	"Poco/Runnable.h"
+	"Poco/SignalHandler.h"
+	"Poco/Event.h"
+	"Poco/RefCountedObject.h"
+	"Poco/AutoPtr.h"
+	<pthread.h>
+	<limits.h>
+	<sys/select.h>
+	<errno.h>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\signalhandler.h
+	"Poco/Foundation.h"
+	<vector>
+	<setjmp.h>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\fifostrategy.h
+	"Poco/NotificationStrategy.h"
+	<map>
+	<list>
+	<memory>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\notificationstrategy.h
+	"Poco/Foundation.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\abstractdelegate.h
+	"Poco/Foundation.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\comparefunctions.h
+	"Poco/Foundation.h"
+	<functional>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\delegate.h
+	"Poco/Foundation.h"
+	"Poco/AbstractDelegate.h"
+	"Poco/FunctionDelegate.h"
+	"Poco/Expire.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\functiondelegate.h
+	"Poco/Foundation.h"
+	"Poco/AbstractDelegate.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\expire.h
+	"Poco/Foundation.h"
+	"Poco/AbstractDelegate.h"
+	"Poco/Timestamp.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\condition.h
+	"Poco/Foundation.h"
+	"Poco/Mutex.h"
+	"Poco/ScopedUnlock.h"
+	"Poco/Event.h"
+	"Poco/Exception.h"
+	<deque>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\poco\include\poco\scopedunlock.h
+	"Poco/Foundation.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\utils\ofutils.h
+	"ofConstants.h"
+	<bitset>
+	"ofLog.h"
+	<shellapi.h>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\types\ofbasetypes.h
+	"ofPoint.h"
+	"ofRectangle.h"
+	"ofConstants.h"
+	"ofColor.h"
+	"ofMesh.h"
+	"ofPixels.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\types\ofrectangle.h
+	"ofPoint.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\3d\ofmesh.h
+	"ofVec3f.h"
+	"ofVec2f.h"
+	"ofColor.h"
+	"ofUtils.h"
+	"ofConstants.h"
+	"ofGLUtils.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\gl\ofglutils.h
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\graphics\ofpixels.h
+	"ofConstants.h"
+	"ofUtils.h"
+	"ofColor.h"
+	"ofMath.h"
+	<limits>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\math\ofvectormath.h
+	"ofVec2f.h"
+	"ofVec3f.h"
+	"ofVec4f.h"
+	"ofMatrix3x3.h"
+	"ofMatrix4x4.h"
+	"ofQuaternion.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\math\ofmatrix3x3.h
+	"ofConstants.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\math\ofmatrix4x4.h
+	"ofVec3f.h"
+	"ofVec4f.h"
+	"ofQuaternion.h"
+	"ofConstants.h"
+	<cmath>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\math\ofquaternion.h
+	"ofConstants.h"
+	"ofVec3f.h"
+	"ofVec4f.h"
+	<cmath>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\communication\ofserial.h
+	"ofConstants.h"
+	"ofTypes.h"
+	<termios.h>
+	<winbase.h>
+	<tchar.h>
+	<iostream>
+	<string.h>
+	<setupapi.h>
+	<regstr.h>
+	<winioctl.h>
+	<initguid.h>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\communication\ofarduino.h
+	<list>
+	<vector>
+	<string>
+	<iostream>
+	"ofEvents.h"
+	"ofSerial.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\gl\offbo.h
+	"ofTexture.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\gl\oftexture.h
+	"ofPoint.h"
+	"ofRectangle.h"
+	"ofBaseTypes.h"
+	"ofConstants.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\gl\ofglrenderer.h
+	"ofBaseTypes.h"
+	"ofPolyline.h"
+	<stack>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\graphics\ofpolyline.h
+	"ofPoint.h"
+	"ofConstants.h"
+	<deque>
+	"ofRectangle.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\gl\oflight.h
+	"ofNode.h"
+	"ofColor.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\3d\ofnode.h
+	"ofVectorMath.h"
+	"of3dUtils.h"
+	"ofGraphics.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\3d\of3dutils.h
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\graphics\ofgraphics.h
+	"ofConstants.h"
+	"ofColor.h"
+	"ofPoint.h"
+	"ofMatrix4x4.h"
+	"ofRectangle.h"
+	"ofTypes.h"
+	"ofBaseTypes.h"
+	"ofGLRenderer.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\gl\ofmaterial.h
+	"ofColor.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\gl\ofshader.h
+	"ofConstants.h"
+	"ofBaseTypes.h"
+	"ofTexture.h"
+	<map>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\gl\ofvbo.h
+	"ofConstants.h"
+	"ofVec3f.h"
+	"ofColor.h"
+	"ofUtils.h"
+	"ofMesh.h"
+	"ofGLUtils.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\gl\ofvbomesh.h
+	"ofMesh.h"
+	"ofVbo.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\graphics\ofcairorenderer.h
+	"cairo-features.h"
+	"cairo-pdf.h"
+	"cairo-svg.h"
+	"cairo.h"
+	<deque>
+	<stack>
+	"ofMatrix4x4.h"
+	"ofBaseTypes.h"
+	"ofPath.h"
+
+1311281768 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\cairo\include\cairo\cairo-features.h
+
+1311281768 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\cairo\include\cairo\cairo-pdf.h
+	"cairo.h"
+
+1311281768 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\cairo\include\cairo\cairo.h
+	"cairo-version.h"
+	"cairo-features.h"
+	"cairo-deprecated.h"
+
+1311281768 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\cairo\include\cairo\cairo-version.h
+
+1311281768 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\cairo\include\cairo\cairo-deprecated.h
+
+1311281768 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\cairo\include\cairo\cairo-svg.h
+	"cairo.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\graphics\ofpath.h
+	"ofConstants.h"
+	"ofPoint.h"
+	"ofColor.h"
+	"ofPolyline.h"
+	"ofBaseTypes.h"
+	"ofMesh.h"
+	"ofTessellator.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\graphics\oftessellator.h
+	"ofConstants.h"
+	"ofMesh.h"
+	"ofTypes.h"
+	"ofPolyline.h"
+	"tesselator.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\graphics\ofimage.h
+	"ofFileUtils.h"
+	"ofTexture.h"
+	"ofPixels.h"
+	"ofBaseTypes.h"
+	"ofConstants.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\graphics\ofrenderercollection.h
+	"ofBaseTypes.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\graphics\oftruetypefont.h
+	<vector>
+	"ofPoint.h"
+	"ofRectangle.h"
+	"ofConstants.h"
+	"ofPath.h"
+	"ofTexture.h"
+	"ofMesh.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\app\ofbaseapp.h
+	"ofPoint.h"
+	"ofEvents.h"
+	"ofBaseTypes.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\app\ofapprunner.h
+	"ofConstants.h"
+	"ofPoint.h"
+	"ofRectangle.h"
+	"ofTypes.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\sound\ofsoundstream.h
+	"ofConstants.h"
+	"ofBaseTypes.h"
+	"ofBaseApp.h"
+	"ofTypes.h"
+	"ofRtAudioSoundStream.h"
+	"ofPASoundStream.h"
+	"ofxAndroidSoundStream.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\sound\ofrtaudiosoundstream.h
+	"ofConstants.h"
+	"ofBaseSoundStream.h"
+	"ofTypes.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\sound\ofbasesoundstream.h
+	"ofConstants.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\sound\ofpasoundstream.h
+	"ofConstants.h"
+	"ofBaseSoundStream.h"
+	"ofTypes.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\sound\ofsoundplayer.h
+	"ofConstants.h"
+	"ofTypes.h"
+	"ofBaseTypes.h"
+	"ofBaseSoundPlayer.h"
+	"ofQuicktimeSoundPlayer.h"
+	"ofFmodSoundPlayer.h"
+	"ofOpenALSoundPlayer.h"
+	"ofxOpenALSoundPlayer.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\sound\ofbasesoundplayer.h
+	"ofConstants.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\sound\offmodsoundplayer.h
+	"ofConstants.h"
+	"ofBaseSoundPlayer.h"
+	"fmod.h"
+	"fmod_errors.h"
+
+1311281770 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\fmodex\include\fmod.h
+	"fmod_codec.h"
+	"fmod_dsp.h"
+	"fmod_memoryinfo.h"
+
+1311281770 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\fmodex\include\fmod_codec.h
+
+1311281770 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\fmodex\include\fmod_dsp.h
+
+1311281772 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\fmodex\include\fmod_memoryinfo.h
+
+1311281770 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\fmodex\include\fmod_errors.h
+	"fmod.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\sound\ofopenalsoundplayer.h
+	"ofConstants.h"
+	"ofBaseSoundPlayer.h"
+	"ofEvents.h"
+	"ofThread.h"
+	<OpenAL/al.h>
+	<OpenAL/alc.h>
+	<AL/al.h>
+	<AL/alc.h>
+	"kiss_fft.h"
+	"kiss_fftr.h"
+	<sndfile.h>
+	<mpg123.h>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\video\ofvideograbber.h
+	"ofConstants.h"
+	"ofTexture.h"
+	"ofBaseTypes.h"
+	"ofPixels.h"
+	"ofTypes.h"
+	"ofiPhoneVideoGrabber.h"
+	"ofQuickTimeGrabber.h"
+	"ofDirectShowGrabber.h"
+	"ofGstVideoGrabber.h"
+	"ofxAndroidVideoGrabber.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\video\ofiphonevideograbber.h
+	"ofVideoGrabber.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\video\ofquicktimegrabber.h
+	"ofConstants.h"
+	"ofQtUtils.h"
+	"ofTexture.h"
+	"ofBaseTypes.h"
+	"ofPixels.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\video\ofqtutils.h
+	"ofConstants.h"
+	<QuickTime/QuickTime.h>
+	<CoreServices/CoreServices.h>
+	<ApplicationServices/ApplicationServices.h>
+	<QTML.h>
+	<FixMath.h>
+	<QuickTimeComponents.h>
+	<TextUtils.h>
+	<MediaHandlers.h>
+
+1311281790 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\qtml.h
+	<MacTypes.h>
+	<MacMemory.h>
+	<MacWindows.h>
+	<OSUtils.h>
+	<Files.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\mactypes.h
+	<ConditionalMacros.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\conditionalmacros.h
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\macmemory.h
+	<MacTypes.h>
+	<MixedMode.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\mixedmode.h
+	<MacTypes.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\macwindows.h
+	<MacTypes.h>
+	<Aliases.h>
+	<AppleEvents.h>
+	<Collections.h>
+	<Drag.h>
+	<Events.h>
+	<Menus.h>
+	<MixedMode.h>
+	<QDOffscreen.h>
+	<Quickdraw.h>
+	<TextCommon.h>
+	<Icons.h>
+	<MacErrors.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\aliases.h
+	<MacTypes.h>
+	<AppleTalk.h>
+	<Files.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\appletalk.h
+	<MacTypes.h>
+	<OSUtils.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\osutils.h
+	<MacTypes.h>
+	<MixedMode.h>
+	<MacMemory.h>
+	<Patches.h>
+	<DateTimeUtils.h>
+	<Endian.h>
+
+1311281790 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\patches.h
+	<MacTypes.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\datetimeutils.h
+	<ConditionalMacros.h>
+	<MacTypes.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\endian.h
+	<ConditionalMacros.h>
+	<MacTypes.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\files.h
+	<MacTypes.h>
+	<MixedMode.h>
+	<OSUtils.h>
+	<TextCommon.h>
+	<UTCUtils.h>
+	<Finder.h>
+
+1311281794 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\textcommon.h
+	<MacTypes.h>
+
+1311281794 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\utcutils.h
+	<MacTypes.h>
+	<MacErrors.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\macerrors.h
+	<ConditionalMacros.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\finder.h
+	<MacTypes.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\appleevents.h
+	<MacTypes.h>
+	<MixedMode.h>
+	<Notification.h>
+	<Events.h>
+	<AEDataModel.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\notification.h
+	<MacTypes.h>
+	<OSUtils.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\events.h
+	<OSUtils.h>
+	<Quickdraw.h>
+	<MacTypes.h>
+	<Endian.h>
+
+1311281792 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\quickdraw.h
+	<Components.h>
+	<MacTypes.h>
+	<MixedMode.h>
+	<QuickdrawText.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\components.h
+	<MacErrors.h>
+	<MacTypes.h>
+	<MixedMode.h>
+
+1311281792 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\quickdrawtext.h
+	<MacTypes.h>
+	<MixedMode.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\aedatamodel.h
+	<MacTypes.h>
+	<MixedMode.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\collections.h
+	<MacTypes.h>
+	<MixedMode.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\drag.h
+	<MacTypes.h>
+	<Events.h>
+	<Files.h>
+	<AppleEvents.h>
+	<Quickdraw.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\menus.h
+	<MacTypes.h>
+	<Events.h>
+	<Quickdraw.h>
+	<Fonts.h>
+	<TextCommon.h>
+	<Processes.h>
+	<AppleEvents.h>
+	<Collections.h>
+	<MacErrors.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\fonts.h
+	<MacTypes.h>
+	<Files.h>
+	<Quickdraw.h>
+	<TextCommon.h>
+	<MacErrors.h>
+
+1311281790 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\processes.h
+	<MacTypes.h>
+	<Events.h>
+	<Files.h>
+
+1311281790 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\qdoffscreen.h
+	<MacErrors.h>
+	<Quickdraw.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\icons.h
+	<MacTypes.h>
+	<Quickdraw.h>
+	<Files.h>
+	<CodeFragments.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\codefragments.h
+	<MacTypes.h>
+	<Files.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\fixmath.h
+	<MacTypes.h>
+
+1311281790 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\quicktimecomponents.h
+	<MacTypes.h>
+	<MixedMode.h>
+	<Components.h>
+	<ImageCompression.h>
+	<Movies.h>
+	<Quickdraw.h>
+	<Video.h>
+	<Sound.h>
+	<QuickTimeMusic.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\imagecompression.h
+	<MacTypes.h>
+	<Quickdraw.h>
+	<QDOffscreen.h>
+	<Components.h>
+	<StandardFile.h>
+
+1311281792 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\standardfile.h
+	<MacTypes.h>
+	<Dialogs.h>
+	<Files.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\dialogs.h
+	<MacTypes.h>
+	<MixedMode.h>
+	<Events.h>
+	<MacWindows.h>
+	<TextEdit.h>
+	<Controls.h>
+	<MacErrors.h>
+
+1311281794 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\textedit.h
+	<MacTypes.h>
+	<Quickdraw.h>
+	<MixedMode.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\controls.h
+	<MacTypes.h>
+	<Quickdraw.h>
+	<Menus.h>
+	<TextEdit.h>
+	<Drag.h>
+	<Icons.h>
+	<Collections.h>
+	<MacErrors.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\movies.h
+	<Quickdraw.h>
+	<Aliases.h>
+	<Events.h>
+	<Menus.h>
+	<Components.h>
+	<ImageCompression.h>
+
+1311281794 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\video.h
+	<Quickdraw.h>
+
+1311281792 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\sound.h
+	<MacTypes.h>
+	<Dialogs.h>
+	<Components.h>
+	<MixedMode.h>
+	<Movies.h>
+
+1311281790 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\quicktimemusic.h
+	<Components.h>
+	<ImageCompression.h>
+	<Movies.h>
+	<Quickdraw.h>
+	<Video.h>
+	<MacMemory.h>
+	<Sound.h>
+	<Endian.h>
+
+1311281794 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\textutils.h
+	<MacTypes.h>
+	<NumberFormatting.h>
+	<StringCompare.h>
+	<DateTimeUtils.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\numberformatting.h
+	<ConditionalMacros.h>
+	<MacTypes.h>
+	<IntlResources.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\intlresources.h
+	<MacTypes.h>
+
+1311281792 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\stringcompare.h
+	<MacTypes.h>
+	<TextCommon.h>
+	<Script.h>
+
+1311281792 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\script.h
+	<MacTypes.h>
+	<Quickdraw.h>
+	<IntlResources.h>
+	<Events.h>
+
+1311281788 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\quicktime\include\mediahandlers.h
+	<ConditionalMacros.h>
+	<MacTypes.h>
+	<Components.h>
+	<Movies.h>
+	<Sound.h>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\video\ofdirectshowgrabber.h
+	"ofConstants.h"
+	"ofTexture.h"
+	"ofBaseTypes.h"
+	"ofPixels.h"
+	"videoInput.h"
+
+1311281800 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\videoinput\include\videoinput.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<wchar.h>
+	<windows.h>
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\video\ofgstvideograbber.h
+	"ofGstUtils.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\video\ofgstutils.h
+	"ofConstants.h"
+	<gst/gst.h>
+	<gst/app/gstappsink.h>
+	"ofConstants.h"
+	"ofBaseTypes.h"
+	"ofPixels.h"
+	"ofTypes.h"
+	"ofEvents.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\video\ofvideoplayer.h
+	"ofConstants.h"
+	"ofTexture.h"
+	"ofBaseTypes.h"
+	"ofTypes.h"
+	"ofGstVideoPlayer.h"
+	"ofQuickTimePlayer.h"
+	"ofiPhoneVideoPlayer.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\video\ofgstvideoplayer.h
+	"ofGstUtils.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\video\ofquicktimeplayer.h
+	"ofConstants.h"
+	"ofBaseTypes.h"
+	"ofPixels.h"
+	"ofQtUtils.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\video\ofiphonevideoplayer.h
+	"ofPixels.h"
+	"ofBaseTypes.h"
+	"ofTexture.h"
+	"ofVideoPlayer.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\3d\ofcamera.h
+	"ofRectangle.h"
+	"ofAppRunner.h"
+	"ofNode.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\3d\ofeasycam.h
+	"ofCamera.h"
+	"ofEvents.h"
+
+1315655636 source:c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth_win\src\vine.cpp
+	"Vine.h"
+	"testApp.h"
+
+1315543700 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth_win\src\vine.h
+	"ofMain.h"
+	"Box2D/Box2D.h"
+	"MColor.h"
+
+1309804368 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\box2d.h
+	<Box2D/Common/b2Settings.h>
+	<Box2D/Common/b2Draw.h>
+	<Box2D/Common/b2Timer.h>
+	<Box2D/Collision/Shapes/b2CircleShape.h>
+	<Box2D/Collision/Shapes/b2EdgeShape.h>
+	<Box2D/Collision/Shapes/b2ChainShape.h>
+	<Box2D/Collision/Shapes/b2PolygonShape.h>
+	<Box2D/Collision/b2BroadPhase.h>
+	<Box2D/Collision/b2Distance.h>
+	<Box2D/Collision/b2DynamicTree.h>
+	<Box2D/Collision/b2TimeOfImpact.h>
+	<Box2D/Dynamics/b2Body.h>
+	<Box2D/Dynamics/b2Fixture.h>
+	<Box2D/Dynamics/b2WorldCallbacks.h>
+	<Box2D/Dynamics/b2TimeStep.h>
+	<Box2D/Dynamics/b2World.h>
+	<Box2D/Dynamics/Contacts/b2Contact.h>
+	<Box2D/Dynamics/Joints/b2DistanceJoint.h>
+	<Box2D/Dynamics/Joints/b2FrictionJoint.h>
+	<Box2D/Dynamics/Joints/b2GearJoint.h>
+	<Box2D/Dynamics/Joints/b2WheelJoint.h>
+	<Box2D/Dynamics/Joints/b2MouseJoint.h>
+	<Box2D/Dynamics/Joints/b2PrismaticJoint.h>
+	<Box2D/Dynamics/Joints/b2PulleyJoint.h>
+	<Box2D/Dynamics/Joints/b2RevoluteJoint.h>
+	<Box2D/Dynamics/Joints/b2RopeJoint.h>
+	<Box2D/Dynamics/Joints/b2WeldJoint.h>
+	<Box2D/Rope/b2Rope.h>
+
+1314429174 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\common\b2settings.h
+	<cassert>
+	<cmath>
+
+1301250702 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\common\b2draw.h
+	<Box2D/Common/b2Math.h>
+
+1314070622 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\common\b2math.h
+	<Box2D/Common/b2Settings.h>
+	<cmath>
+	<cfloat>
+	<cstddef>
+	<limits>
+
+1309130300 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\common\b2timer.h
+	<Box2D/Common/b2Settings.h>
+
+1300987020 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\collision\shapes\b2circleshape.h
+	<Box2D/Collision/Shapes/b2Shape.h>
+
+1313981394 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\collision\shapes\b2shape.h
+	<Box2D/Common/b2BlockAllocator.h>
+	<Box2D/Common/b2Math.h>
+	<Box2D/Collision/b2Collision.h>
+
+1300987020 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\common\b2blockallocator.h
+	<Box2D/Common/b2Settings.h>
+
+1307305362 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\collision\b2collision.h
+	<Box2D/Common/b2Math.h>
+	<climits>
+
+1312786920 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\collision\shapes\b2edgeshape.h
+	<Box2D/Collision/Shapes/b2Shape.h>
+
+1312786586 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\collision\shapes\b2chainshape.h
+	<Box2D/Collision/Shapes/b2Shape.h>
+
+1300987020 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\collision\shapes\b2polygonshape.h
+	<Box2D/Collision/Shapes/b2Shape.h>
+
+1301261004 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\collision\b2broadphase.h
+	<Box2D/Common/b2Settings.h>
+	<Box2D/Collision/b2Collision.h>
+	<Box2D/Collision/b2DynamicTree.h>
+	<algorithm>
+
+1308987990 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\collision\b2dynamictree.h
+	<Box2D/Collision/b2Collision.h>
+	<Box2D/Common/b2GrowableStack.h>
+
+1300987020 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\common\b2growablestack.h
+	<Box2D/Common/b2Settings.h>
+	<cstring>
+
+1300987020 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\collision\b2distance.h
+	<Box2D/Common/b2Math.h>
+
+1300987020 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\collision\b2timeofimpact.h
+	<Box2D/Common/b2Math.h>
+	<Box2D/Collision/b2Distance.h>
+
+1314072778 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\b2body.h
+	<Box2D/Common/b2Math.h>
+	<Box2D/Collision/Shapes/b2Shape.h>
+	<memory>
+
+1305786768 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\b2fixture.h
+	<Box2D/Dynamics/b2Body.h>
+	<Box2D/Collision/b2Collision.h>
+	<Box2D/Collision/Shapes/b2Shape.h>
+
+1314073602 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\b2worldcallbacks.h
+	<Box2D/Common/b2Settings.h>
+
+1308356194 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\b2timestep.h
+	<Box2D/Common/b2Math.h>
+
+1314570422 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\b2world.h
+	<Box2D/Common/b2Math.h>
+	<Box2D/Common/b2BlockAllocator.h>
+	<Box2D/Common/b2StackAllocator.h>
+	<Box2D/Dynamics/b2ContactManager.h>
+	<Box2D/Dynamics/b2WorldCallbacks.h>
+	<Box2D/Dynamics/b2TimeStep.h>
+
+1300987020 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\common\b2stackallocator.h
+	<Box2D/Common/b2Settings.h>
+
+1300987020 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\b2contactmanager.h
+	<Box2D/Collision/b2BroadPhase.h>
+
+1305786820 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\contacts\b2contact.h
+	<Box2D/Common/b2Math.h>
+	<Box2D/Collision/b2Collision.h>
+	<Box2D/Collision/Shapes/b2Shape.h>
+	<Box2D/Dynamics/b2Fixture.h>
+
+1307305364 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\joints\b2distancejoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1307305364 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\joints\b2joint.h
+	<Box2D/Common/b2Math.h>
+
+1307305364 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\joints\b2frictionjoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1308333132 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\joints\b2gearjoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1307754458 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\joints\b2wheeljoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1307305364 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\joints\b2mousejoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1307305364 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\joints\b2prismaticjoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1314569642 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\joints\b2pulleyjoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1307309376 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\joints\b2revolutejoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1307318844 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\joints\b2ropejoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1307328642 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\joints\b2weldjoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1298366520 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\rope\b2rope.h
+	<Box2D/Common/b2Math.h>
+
+1315543336 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth_win\src\testapp.h
+	"ofMain.h"
+	"Box2D/Box2D.h"
+	"Vine.h"
+	"ContactLIstener.h"
+	<vector>
+
+1315542464 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth_win\src\contactlistener.h
+	"ofMain.h"
+	"Box2D/Box2D.h"
+	<map>
+
+1309884492 source:c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth_win\src\main.cpp
+	"ofMain.h"
+	"testApp.h"
+	"ofAppGlutWindow.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\app\ofappglutwindow.h
+	"ofConstants.h"
+	"ofAppBaseWindow.h"
+	"ofEvents.h"
+	"ofTypes.h"
+
+1311281780 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\libs\openframeworks\app\ofappbasewindow.h
+	"ofPoint.h"
+	"ofTypes.h"
+
+1315655512 source:c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth_win\src\testapp.cpp
+	"testApp.h"
+	"MColor.h"
+
+1315655348 source:c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth_win\src\contactlistener.cpp
+	"ContactListener.h"
+	"testApp.h"
+
+1315674526 source:c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-vines-win\src\mcolor.cpp
+	"MColor.h"
+	<iostream>
+
+1315552036 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-vines-win\src\mcolor.h
+	"ofMain.h"
+
+1315655636 source:c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-vines-win\src\vine.cpp
+	"Vine.h"
+	"testApp.h"
+
+1315543700 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-vines-win\src\vine.h
+	"ofMain.h"
+	"Box2D/Box2D.h"
+	"MColor.h"
+
+1315804224 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-vines-win\src\testapp.h
+	"ofMain.h"
+	"Box2D/Box2D.h"
+	"Vine.h"
+	"ContactLIstener.h"
+	"ofxOsc.h"
+	<vector>
+
+1315542464 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-vines-win\src\contactlistener.h
+	"ofMain.h"
+	"Box2D/Box2D.h"
+	<map>
+
+1311281752 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\addons\ofxosc\src\ofxosc.h
+	"ofxOscArg.h"
+	"ofxOscMessage.h"
+	"ofxOscSender.h"
+	"ofxOscReceiver.h"
+
+1311281752 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\addons\ofxosc\src\ofxoscarg.h
+	"ofConstants.h"
+	<string>
+
+1311281752 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\addons\ofxosc\src\ofxoscmessage.h
+	"ofxOscArg.h"
+	<vector>
+	<string>
+
+1311281752 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\addons\ofxosc\src\ofxoscsender.h
+	<string>
+	"OscTypes.h"
+	"OscOutboundPacketStream.h"
+	"ofxOscBundle.h"
+	"ofxOscMessage.h"
+
+1311281752 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\addons\ofxosc\src\ofxoscbundle.h
+	<vector>
+	"ofxOscMessage.h"
+
+1311281752 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\addons\ofxosc\src\ofxoscreceiver.h
+	<deque>
+	"ofMain.h"
+	<windows.h>
+	<pthread.h>
+	"OscTypes.h"
+	"OscPacketListener.h"
+	"UdpSocket.h"
+	"ofxOscMessage.h"
+
+1309884492 source:c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-vines-win\src\main.cpp
+	"ofMain.h"
+	"testApp.h"
+	"ofAppGlutWindow.h"
+
+1315655348 source:c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-vines-win\src\contactlistener.cpp
+	"ContactListener.h"
+	"testApp.h"
+
+1311281752 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\addons\ofxosc\libs\oscpack\include\osc\osctypes.h
+	<TargetConditionals.h>
+
+1311281752 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\addons\ofxosc\libs\oscpack\include\osc\oscoutboundpacketstream.h
+	"OscTypes.h"
+	"OscException.h"
+
+1311281752 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\addons\ofxosc\libs\oscpack\include\osc\oscexception.h
+	<exception>
+
+1311281752 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\addons\ofxosc\libs\oscpack\include\osc\oscpacketlistener.h
+	"OscReceivedElements.h"
+	"../ip/PacketListener.h"
+
+1311281752 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\addons\ofxosc\libs\oscpack\include\osc\oscreceivedelements.h
+	"OscTypes.h"
+	"OscException.h"
+
+1311281752 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\addons\ofxosc\libs\oscpack\include\ip\packetlistener.h
+
+1311281752 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\addons\ofxosc\libs\oscpack\include\ip\udpsocket.h
+	"NetworkingUtils.h"
+	"IpEndpointName.h"
+
+1311281752 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\addons\ofxosc\libs\oscpack\include\ip\networkingutils.h
+
+1311281752 c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\addons\ofxosc\libs\oscpack\include\ip\ipendpointname.h
+
+1315954828 source:c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-vines-win\src\testapp.cpp
+	"testApp.h"
+	"MColor.h"
+
+1311281752 source:c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\addons\ofxosc\src\ofxoscbundle.cpp
+	"ofxOscBundle.h"
+
+1311281752 source:c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\addons\ofxosc\src\ofxoscmessage.cpp
+	"ofxOscMessage.h"
+	<iostream>
+	<assert.h>
+
+1311281752 source:c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\addons\ofxosc\src\ofxoscreceiver.cpp
+	"ofxOscReceiver.h"
+	<pthread.h>
+	<iostream>
+	<assert.h>
+
+1311281752 source:c:\documents and settings\jtnimoy\desktop\of_prerelease_v007_win_cb\of_prerelease_v007_win_cb\addons\ofxosc\src\ofxoscsender.cpp
+	"ofxOscSender.h"
+	"UdpSocket.h"
+	<assert.h>
+
+1311281700 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\addons\ofxosc\src\ofxoscbundle.cpp
+	"ofxOscBundle.h"
+
+1311281700 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\addons\ofxosc\src\ofxoscbundle.h
+	<vector>
+	"ofxOscMessage.h"
+
+1311281700 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\addons\ofxosc\src\ofxoscmessage.h
+	"ofxOscArg.h"
+	<vector>
+	<string>
+
+1311281700 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\addons\ofxosc\src\ofxoscarg.h
+	"ofConstants.h"
+	<string>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\utils\ofconstants.h
+	<TargetConditionals.h>
+	<windows.h>
+	"GL\glew.h"
+	"GL\wglew.h"
+	"glu.h"
+	<unistd.h>
+	"GL/glew.h"
+	<OpenGL/gl.h>
+	<ApplicationServices/ApplicationServices.h>
+	<unistd.h>
+	<GL/glew.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	<unistd.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	"glu.h"
+	"tesselator.h"
+	<cstdlib>
+	<cstdio>
+	<cstdarg>
+	<cmath>
+	<ctime>
+	<cstdlib>
+	<string>
+	<iostream>
+	<vector>
+	<cstring>
+	<sstream>
+	<iomanip>
+	<fstream>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\glew\include\gl\wglew.h
+	<windows.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\glu\include\glu.h
+	"glu_mangle.h"
+	<GL/gl.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\tess2\include\tesselator.h
+	<TargetConditionals.h>
+
+1311281700 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\addons\ofxosc\src\ofxoscmessage.cpp
+	"ofxOscMessage.h"
+	<iostream>
+	<assert.h>
+
+1311281700 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\addons\ofxosc\src\ofxoscreceiver.cpp
+	"ofxOscReceiver.h"
+	<pthread.h>
+	<iostream>
+	<assert.h>
+
+1311281700 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\addons\ofxosc\src\ofxoscreceiver.h
+	<deque>
+	"ofMain.h"
+	<windows.h>
+	<pthread.h>
+	"OscTypes.h"
+	"OscPacketListener.h"
+	"UdpSocket.h"
+	"ofxOscMessage.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\ofmain.h
+	"ofConstants.h"
+	"ofFileUtils.h"
+	"ofLog.h"
+	"ofSystemUtils.h"
+	"ofThread.h"
+	"ofURLFileLoader.h"
+	"ofUtils.h"
+	"ofBaseTypes.h"
+	"ofTypes.h"
+	"ofColor.h"
+	"ofPoint.h"
+	"ofRectangle.h"
+	"ofMath.h"
+	"ofVectorMath.h"
+	"ofSerial.h"
+	"ofArduino.h"
+	"ofFbo.h"
+	"ofGLRenderer.h"
+	"ofGLUtils.h"
+	"ofLight.h"
+	"ofMaterial.h"
+	"ofShader.h"
+	"ofTexture.h"
+	"ofVbo.h"
+	"ofVboMesh.h"
+	"ofCairoRenderer.h"
+	"ofGraphics.h"
+	"ofImage.h"
+	"ofPath.h"
+	"ofPixels.h"
+	"ofPolyline.h"
+	"ofRendererCollection.h"
+	"ofTessellator.h"
+	"ofTrueTypeFont.h"
+	"ofBaseApp.h"
+	"ofAppRunner.h"
+	"ofSoundStream.h"
+	"ofSoundPlayer.h"
+	"ofVideoGrabber.h"
+	"ofVideoPlayer.h"
+	"ofEvents.h"
+	"of3dUtils.h"
+	"ofCamera.h"
+	"ofEasyCam.h"
+	"ofMesh.h"
+	"ofNode.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\utils\offileutils.h
+	"ofConstants.h"
+	"Poco/File.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\file.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+	<vector>
+	"File_WINCE.h"
+	"Poco/File_WIN32U.h"
+	"Poco/File_WIN32.h"
+	"Poco/File_UNIX.h"
+	"Poco/File_VMS.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\foundation.h
+	"Poco/Config.h"
+	"Poco/Platform.h"
+	"Poco/Platform_WIN32.h"
+	"Poco/Platform_VMS.h"
+	"Poco/Platform_POSIX.h"
+	"Poco/Bugcheck.h"
+	"Poco/Types.h"
+	<string>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\config.h
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\platform.h
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\platform_win32.h
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\platform_vms.h
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\platform_posix.h
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\bugcheck.h
+	"Poco/Foundation.h"
+	<string>
+	<iostream>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\types.h
+	"Poco/Foundation.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\timestamp.h
+	"Poco/Foundation.h"
+	<ctime>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\file_wince.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\file_win32u.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\file_win32.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\file_unix.h
+	"Poco/Foundation.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\file_vms.h
+	"Poco/Foundation.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\utils\oflog.h
+	"ofConstants.h"
+	"ofFileUtils.h"
+	"ofTypes.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\types\oftypes.h
+	"ofConstants.h"
+	"ofColor.h"
+	<memory>
+	<tr1/memory>
+	"Poco/Mutex.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\types\ofcolor.h
+	<limits>
+	"ofMath.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\math\ofmath.h
+	"ofPoint.h"
+	"ofConstants.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\types\ofpoint.h
+	"ofVec3f.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\math\ofvec3f.h
+	"ofVec2f.h"
+	"ofVec4f.h"
+	"ofConstants.h"
+	<cmath>
+	<iostream>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\math\ofvec2f.h
+	"ofConstants.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\math\ofvec4f.h
+	"ofConstants.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\mutex.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/ScopedLock.h"
+	"Poco/Mutex_WINCE.h"
+	"Poco/Mutex_WIN32.h"
+	"Poco/Mutex_POSIX.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\exception.h
+	"Poco/Foundation.h"
+	<stdexcept>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\scopedlock.h
+	"Poco/Foundation.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\mutex_wince.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/UnWindows.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\unwindows.h
+	<windows.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\mutex_win32.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/UnWindows.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\mutex_posix.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<pthread.h>
+	<errno.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\utils\ofsystemutils.h
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\utils\ofthread.h
+	"ofConstants.h"
+	"ofTypes.h"
+	<process.h>
+	<pthread.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\utils\ofurlfileloader.h
+	<deque>
+	<queue>
+	"ofThread.h"
+	"ofEvents.h"
+	"ofFileUtils.h"
+	"Poco/Condition.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\events\ofevents.h
+	"ofConstants.h"
+	"ofPoint.h"
+	"ofEventUtils.h"
+	"ofxEventUtils.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\events\ofeventutils.h
+	"ofConstants.h"
+	"Poco/FIFOEvent.h"
+	"Poco/Delegate.h"
+	<stdio.h>
+	<stdlib.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\fifoevent.h
+	"Poco/AbstractEvent.h"
+	"Poco/FIFOStrategy.h"
+	"Poco/AbstractDelegate.h"
+	"Poco/CompareFunctions.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\abstractevent.h
+	"Poco/Foundation.h"
+	"Poco/SingletonHolder.h"
+	"Poco/SharedPtr.h"
+	"Poco/ActiveResult.h"
+	"Poco/ActiveMethod.h"
+	"Poco/Mutex.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\singletonholder.h
+	"Poco/Foundation.h"
+	"Poco/Mutex.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\sharedptr.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/AtomicCounter.h"
+	<algorithm>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\atomiccounter.h
+	"Poco/Foundation.h"
+	"Poco/UnWindows.h"
+	<libkern/OSAtomic.h>
+	"Poco/Mutex.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\activeresult.h
+	"Poco/Foundation.h"
+	"Poco/Mutex.h"
+	"Poco/Event.h"
+	"Poco/RefCountedObject.h"
+	"Poco/Exception.h"
+	<algorithm>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\event.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/Event_WIN32.h"
+	"Poco/Event_POSIX.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\event_win32.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/UnWindows.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\event_posix.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<pthread.h>
+	<errno.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\refcountedobject.h
+	"Poco/Foundation.h"
+	"Poco/AtomicCounter.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\activemethod.h
+	"Poco/Foundation.h"
+	"Poco/ActiveResult.h"
+	"Poco/ActiveRunnable.h"
+	"Poco/ActiveStarter.h"
+	"Poco/AutoPtr.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\activerunnable.h
+	"Poco/Foundation.h"
+	"Poco/ActiveResult.h"
+	"Poco/Runnable.h"
+	"Poco/RefCountedObject.h"
+	"Poco/AutoPtr.h"
+	"Poco/Exception.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\runnable.h
+	"Poco/Foundation.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\autoptr.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<algorithm>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\activestarter.h
+	"Poco/Foundation.h"
+	"Poco/ThreadPool.h"
+	"Poco/ActiveRunnable.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\threadpool.h
+	"Poco/Foundation.h"
+	"Poco/Thread.h"
+	"Poco/Mutex.h"
+	<vector>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\thread.h
+	"Poco/Foundation.h"
+	"Poco/Mutex.h"
+	"Poco/Thread_WINCE.h"
+	"Poco/Thread_WIN32.h"
+	"Poco/Thread_POSIX.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\thread_wince.h
+	"Poco/Foundation.h"
+	"Poco/Runnable.h"
+	"Poco/UnWindows.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\thread_win32.h
+	"Poco/Foundation.h"
+	"Poco/Runnable.h"
+	"Poco/UnWindows.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\thread_posix.h
+	"Poco/Foundation.h"
+	"Poco/Runnable.h"
+	"Poco/SignalHandler.h"
+	"Poco/Event.h"
+	"Poco/RefCountedObject.h"
+	"Poco/AutoPtr.h"
+	<pthread.h>
+	<limits.h>
+	<sys/select.h>
+	<errno.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\signalhandler.h
+	"Poco/Foundation.h"
+	<vector>
+	<setjmp.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\fifostrategy.h
+	"Poco/NotificationStrategy.h"
+	<map>
+	<list>
+	<memory>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\notificationstrategy.h
+	"Poco/Foundation.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\abstractdelegate.h
+	"Poco/Foundation.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\comparefunctions.h
+	"Poco/Foundation.h"
+	<functional>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\delegate.h
+	"Poco/Foundation.h"
+	"Poco/AbstractDelegate.h"
+	"Poco/FunctionDelegate.h"
+	"Poco/Expire.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\functiondelegate.h
+	"Poco/Foundation.h"
+	"Poco/AbstractDelegate.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\expire.h
+	"Poco/Foundation.h"
+	"Poco/AbstractDelegate.h"
+	"Poco/Timestamp.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\condition.h
+	"Poco/Foundation.h"
+	"Poco/Mutex.h"
+	"Poco/ScopedUnlock.h"
+	"Poco/Event.h"
+	"Poco/Exception.h"
+	<deque>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\poco\include\poco\scopedunlock.h
+	"Poco/Foundation.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\utils\ofutils.h
+	"ofConstants.h"
+	<bitset>
+	"ofLog.h"
+	<shellapi.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\types\ofbasetypes.h
+	"ofPoint.h"
+	"ofRectangle.h"
+	"ofConstants.h"
+	"ofColor.h"
+	"ofMesh.h"
+	"ofPixels.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\types\ofrectangle.h
+	"ofPoint.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\3d\ofmesh.h
+	"ofVec3f.h"
+	"ofVec2f.h"
+	"ofColor.h"
+	"ofUtils.h"
+	"ofConstants.h"
+	"ofGLUtils.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\gl\ofglutils.h
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\graphics\ofpixels.h
+	"ofConstants.h"
+	"ofUtils.h"
+	"ofColor.h"
+	"ofMath.h"
+	<limits>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\math\ofvectormath.h
+	"ofVec2f.h"
+	"ofVec3f.h"
+	"ofVec4f.h"
+	"ofMatrix3x3.h"
+	"ofMatrix4x4.h"
+	"ofQuaternion.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\math\ofmatrix3x3.h
+	"ofConstants.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\math\ofmatrix4x4.h
+	"ofVec3f.h"
+	"ofVec4f.h"
+	"ofQuaternion.h"
+	"ofConstants.h"
+	<cmath>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\math\ofquaternion.h
+	"ofConstants.h"
+	"ofVec3f.h"
+	"ofVec4f.h"
+	<cmath>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\communication\ofserial.h
+	"ofConstants.h"
+	"ofTypes.h"
+	<termios.h>
+	<winbase.h>
+	<tchar.h>
+	<iostream>
+	<string.h>
+	<setupapi.h>
+	<regstr.h>
+	<winioctl.h>
+	<initguid.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\communication\ofarduino.h
+	<list>
+	<vector>
+	<string>
+	<iostream>
+	"ofEvents.h"
+	"ofSerial.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\gl\offbo.h
+	"ofTexture.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\gl\oftexture.h
+	"ofPoint.h"
+	"ofRectangle.h"
+	"ofBaseTypes.h"
+	"ofConstants.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\gl\ofglrenderer.h
+	"ofBaseTypes.h"
+	"ofPolyline.h"
+	<stack>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\graphics\ofpolyline.h
+	"ofPoint.h"
+	"ofConstants.h"
+	<deque>
+	"ofRectangle.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\gl\oflight.h
+	"ofNode.h"
+	"ofColor.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\3d\ofnode.h
+	"ofVectorMath.h"
+	"of3dUtils.h"
+	"ofGraphics.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\3d\of3dutils.h
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\graphics\ofgraphics.h
+	"ofConstants.h"
+	"ofColor.h"
+	"ofPoint.h"
+	"ofMatrix4x4.h"
+	"ofRectangle.h"
+	"ofTypes.h"
+	"ofBaseTypes.h"
+	"ofGLRenderer.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\gl\ofmaterial.h
+	"ofColor.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\gl\ofshader.h
+	"ofConstants.h"
+	"ofBaseTypes.h"
+	"ofTexture.h"
+	<map>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\gl\ofvbo.h
+	"ofConstants.h"
+	"ofVec3f.h"
+	"ofColor.h"
+	"ofUtils.h"
+	"ofMesh.h"
+	"ofGLUtils.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\gl\ofvbomesh.h
+	"ofMesh.h"
+	"ofVbo.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\graphics\ofcairorenderer.h
+	"cairo-features.h"
+	"cairo-pdf.h"
+	"cairo-svg.h"
+	"cairo.h"
+	<deque>
+	<stack>
+	"ofMatrix4x4.h"
+	"ofBaseTypes.h"
+	"ofPath.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\cairo\include\cairo\cairo-features.h
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\cairo\include\cairo\cairo-pdf.h
+	"cairo.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\cairo\include\cairo\cairo.h
+	"cairo-version.h"
+	"cairo-features.h"
+	"cairo-deprecated.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\cairo\include\cairo\cairo-version.h
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\cairo\include\cairo\cairo-deprecated.h
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\cairo\include\cairo\cairo-svg.h
+	"cairo.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\graphics\ofpath.h
+	"ofConstants.h"
+	"ofPoint.h"
+	"ofColor.h"
+	"ofPolyline.h"
+	"ofBaseTypes.h"
+	"ofMesh.h"
+	"ofTessellator.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\graphics\oftessellator.h
+	"ofConstants.h"
+	"ofMesh.h"
+	"ofTypes.h"
+	"ofPolyline.h"
+	"tesselator.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\graphics\ofimage.h
+	"ofFileUtils.h"
+	"ofTexture.h"
+	"ofPixels.h"
+	"ofBaseTypes.h"
+	"ofConstants.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\graphics\ofrenderercollection.h
+	"ofBaseTypes.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\graphics\oftruetypefont.h
+	<vector>
+	"ofPoint.h"
+	"ofRectangle.h"
+	"ofConstants.h"
+	"ofPath.h"
+	"ofTexture.h"
+	"ofMesh.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\app\ofbaseapp.h
+	"ofPoint.h"
+	"ofEvents.h"
+	"ofBaseTypes.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\app\ofapprunner.h
+	"ofConstants.h"
+	"ofPoint.h"
+	"ofRectangle.h"
+	"ofTypes.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\sound\ofsoundstream.h
+	"ofConstants.h"
+	"ofBaseTypes.h"
+	"ofBaseApp.h"
+	"ofTypes.h"
+	"ofRtAudioSoundStream.h"
+	"ofPASoundStream.h"
+	"ofxAndroidSoundStream.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\sound\ofrtaudiosoundstream.h
+	"ofConstants.h"
+	"ofBaseSoundStream.h"
+	"ofTypes.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\sound\ofbasesoundstream.h
+	"ofConstants.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\sound\ofpasoundstream.h
+	"ofConstants.h"
+	"ofBaseSoundStream.h"
+	"ofTypes.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\sound\ofsoundplayer.h
+	"ofConstants.h"
+	"ofTypes.h"
+	"ofBaseTypes.h"
+	"ofBaseSoundPlayer.h"
+	"ofQuicktimeSoundPlayer.h"
+	"ofFmodSoundPlayer.h"
+	"ofOpenALSoundPlayer.h"
+	"ofxOpenALSoundPlayer.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\sound\ofbasesoundplayer.h
+	"ofConstants.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\sound\offmodsoundplayer.h
+	"ofConstants.h"
+	"ofBaseSoundPlayer.h"
+	"fmod.h"
+	"fmod_errors.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\fmodex\include\fmod.h
+	"fmod_codec.h"
+	"fmod_dsp.h"
+	"fmod_memoryinfo.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\fmodex\include\fmod_codec.h
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\fmodex\include\fmod_dsp.h
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\fmodex\include\fmod_memoryinfo.h
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\fmodex\include\fmod_errors.h
+	"fmod.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\sound\ofopenalsoundplayer.h
+	"ofConstants.h"
+	"ofBaseSoundPlayer.h"
+	"ofEvents.h"
+	"ofThread.h"
+	<OpenAL/al.h>
+	<OpenAL/alc.h>
+	<AL/al.h>
+	<AL/alc.h>
+	"kiss_fft.h"
+	"kiss_fftr.h"
+	<sndfile.h>
+	<mpg123.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\video\ofvideograbber.h
+	"ofConstants.h"
+	"ofTexture.h"
+	"ofBaseTypes.h"
+	"ofPixels.h"
+	"ofTypes.h"
+	"ofiPhoneVideoGrabber.h"
+	"ofQuickTimeGrabber.h"
+	"ofDirectShowGrabber.h"
+	"ofGstVideoGrabber.h"
+	"ofxAndroidVideoGrabber.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\video\ofiphonevideograbber.h
+	"ofVideoGrabber.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\video\ofquicktimegrabber.h
+	"ofConstants.h"
+	"ofQtUtils.h"
+	"ofTexture.h"
+	"ofBaseTypes.h"
+	"ofPixels.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\video\ofqtutils.h
+	"ofConstants.h"
+	<QuickTime/QuickTime.h>
+	<CoreServices/CoreServices.h>
+	<ApplicationServices/ApplicationServices.h>
+	<QTML.h>
+	<FixMath.h>
+	<QuickTimeComponents.h>
+	<TextUtils.h>
+	<MediaHandlers.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\qtml.h
+	<MacTypes.h>
+	<MacMemory.h>
+	<MacWindows.h>
+	<OSUtils.h>
+	<Files.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\mactypes.h
+	<ConditionalMacros.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\conditionalmacros.h
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\macmemory.h
+	<MacTypes.h>
+	<MixedMode.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\mixedmode.h
+	<MacTypes.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\macwindows.h
+	<MacTypes.h>
+	<Aliases.h>
+	<AppleEvents.h>
+	<Collections.h>
+	<Drag.h>
+	<Events.h>
+	<Menus.h>
+	<MixedMode.h>
+	<QDOffscreen.h>
+	<Quickdraw.h>
+	<TextCommon.h>
+	<Icons.h>
+	<MacErrors.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\aliases.h
+	<MacTypes.h>
+	<AppleTalk.h>
+	<Files.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\appletalk.h
+	<MacTypes.h>
+	<OSUtils.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\osutils.h
+	<MacTypes.h>
+	<MixedMode.h>
+	<MacMemory.h>
+	<Patches.h>
+	<DateTimeUtils.h>
+	<Endian.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\patches.h
+	<MacTypes.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\datetimeutils.h
+	<ConditionalMacros.h>
+	<MacTypes.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\endian.h
+	<ConditionalMacros.h>
+	<MacTypes.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\files.h
+	<MacTypes.h>
+	<MixedMode.h>
+	<OSUtils.h>
+	<TextCommon.h>
+	<UTCUtils.h>
+	<Finder.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\textcommon.h
+	<MacTypes.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\utcutils.h
+	<MacTypes.h>
+	<MacErrors.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\macerrors.h
+	<ConditionalMacros.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\finder.h
+	<MacTypes.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\appleevents.h
+	<MacTypes.h>
+	<MixedMode.h>
+	<Notification.h>
+	<Events.h>
+	<AEDataModel.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\notification.h
+	<MacTypes.h>
+	<OSUtils.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\events.h
+	<OSUtils.h>
+	<Quickdraw.h>
+	<MacTypes.h>
+	<Endian.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\quickdraw.h
+	<Components.h>
+	<MacTypes.h>
+	<MixedMode.h>
+	<QuickdrawText.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\components.h
+	<MacErrors.h>
+	<MacTypes.h>
+	<MixedMode.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\quickdrawtext.h
+	<MacTypes.h>
+	<MixedMode.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\aedatamodel.h
+	<MacTypes.h>
+	<MixedMode.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\collections.h
+	<MacTypes.h>
+	<MixedMode.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\drag.h
+	<MacTypes.h>
+	<Events.h>
+	<Files.h>
+	<AppleEvents.h>
+	<Quickdraw.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\menus.h
+	<MacTypes.h>
+	<Events.h>
+	<Quickdraw.h>
+	<Fonts.h>
+	<TextCommon.h>
+	<Processes.h>
+	<AppleEvents.h>
+	<Collections.h>
+	<MacErrors.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\fonts.h
+	<MacTypes.h>
+	<Files.h>
+	<Quickdraw.h>
+	<TextCommon.h>
+	<MacErrors.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\processes.h
+	<MacTypes.h>
+	<Events.h>
+	<Files.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\qdoffscreen.h
+	<MacErrors.h>
+	<Quickdraw.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\icons.h
+	<MacTypes.h>
+	<Quickdraw.h>
+	<Files.h>
+	<CodeFragments.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\codefragments.h
+	<MacTypes.h>
+	<Files.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\fixmath.h
+	<MacTypes.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\quicktimecomponents.h
+	<MacTypes.h>
+	<MixedMode.h>
+	<Components.h>
+	<ImageCompression.h>
+	<Movies.h>
+	<Quickdraw.h>
+	<Video.h>
+	<Sound.h>
+	<QuickTimeMusic.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\imagecompression.h
+	<MacTypes.h>
+	<Quickdraw.h>
+	<QDOffscreen.h>
+	<Components.h>
+	<StandardFile.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\standardfile.h
+	<MacTypes.h>
+	<Dialogs.h>
+	<Files.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\dialogs.h
+	<MacTypes.h>
+	<MixedMode.h>
+	<Events.h>
+	<MacWindows.h>
+	<TextEdit.h>
+	<Controls.h>
+	<MacErrors.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\textedit.h
+	<MacTypes.h>
+	<Quickdraw.h>
+	<MixedMode.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\controls.h
+	<MacTypes.h>
+	<Quickdraw.h>
+	<Menus.h>
+	<TextEdit.h>
+	<Drag.h>
+	<Icons.h>
+	<Collections.h>
+	<MacErrors.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\movies.h
+	<Quickdraw.h>
+	<Aliases.h>
+	<Events.h>
+	<Menus.h>
+	<Components.h>
+	<ImageCompression.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\video.h
+	<Quickdraw.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\sound.h
+	<MacTypes.h>
+	<Dialogs.h>
+	<Components.h>
+	<MixedMode.h>
+	<Movies.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\quicktimemusic.h
+	<Components.h>
+	<ImageCompression.h>
+	<Movies.h>
+	<Quickdraw.h>
+	<Video.h>
+	<MacMemory.h>
+	<Sound.h>
+	<Endian.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\textutils.h
+	<MacTypes.h>
+	<NumberFormatting.h>
+	<StringCompare.h>
+	<DateTimeUtils.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\numberformatting.h
+	<ConditionalMacros.h>
+	<MacTypes.h>
+	<IntlResources.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\intlresources.h
+	<MacTypes.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\stringcompare.h
+	<MacTypes.h>
+	<TextCommon.h>
+	<Script.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\script.h
+	<MacTypes.h>
+	<Quickdraw.h>
+	<IntlResources.h>
+	<Events.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\quicktime\include\mediahandlers.h
+	<ConditionalMacros.h>
+	<MacTypes.h>
+	<Components.h>
+	<Movies.h>
+	<Sound.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\video\ofdirectshowgrabber.h
+	"ofConstants.h"
+	"ofTexture.h"
+	"ofBaseTypes.h"
+	"ofPixels.h"
+	"videoInput.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\videoinput\include\videoinput.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<wchar.h>
+	<windows.h>
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\video\ofgstvideograbber.h
+	"ofGstUtils.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\video\ofgstutils.h
+	"ofConstants.h"
+	<gst/gst.h>
+	<gst/app/gstappsink.h>
+	"ofConstants.h"
+	"ofBaseTypes.h"
+	"ofPixels.h"
+	"ofTypes.h"
+	"ofEvents.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\video\ofvideoplayer.h
+	"ofConstants.h"
+	"ofTexture.h"
+	"ofBaseTypes.h"
+	"ofTypes.h"
+	"ofGstVideoPlayer.h"
+	"ofQuickTimePlayer.h"
+	"ofiPhoneVideoPlayer.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\video\ofgstvideoplayer.h
+	"ofGstUtils.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\video\ofquicktimeplayer.h
+	"ofConstants.h"
+	"ofBaseTypes.h"
+	"ofPixels.h"
+	"ofQtUtils.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\video\ofiphonevideoplayer.h
+	"ofPixels.h"
+	"ofBaseTypes.h"
+	"ofTexture.h"
+	"ofVideoPlayer.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\3d\ofcamera.h
+	"ofRectangle.h"
+	"ofAppRunner.h"
+	"ofNode.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\3d\ofeasycam.h
+	"ofCamera.h"
+	"ofEvents.h"
+
+1311281700 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\addons\ofxosc\libs\oscpack\include\osc\osctypes.h
+	<TargetConditionals.h>
+
+1311281700 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\addons\ofxosc\libs\oscpack\include\osc\oscpacketlistener.h
+	"OscReceivedElements.h"
+	"../ip/PacketListener.h"
+
+1311281700 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\addons\ofxosc\libs\oscpack\include\osc\oscreceivedelements.h
+	"OscTypes.h"
+	"OscException.h"
+
+1311281700 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\addons\ofxosc\libs\oscpack\include\osc\oscexception.h
+	<exception>
+
+1311281700 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\addons\ofxosc\libs\oscpack\include\ip\packetlistener.h
+
+1311281700 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\addons\ofxosc\libs\oscpack\include\ip\udpsocket.h
+	"NetworkingUtils.h"
+	"IpEndpointName.h"
+
+1311281700 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\addons\ofxosc\libs\oscpack\include\ip\networkingutils.h
+
+1311281700 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\addons\ofxosc\libs\oscpack\include\ip\ipendpointname.h
+
+1311281700 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\addons\ofxosc\src\ofxoscsender.cpp
+	"ofxOscSender.h"
+	"UdpSocket.h"
+	<assert.h>
+
+1311281700 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\addons\ofxosc\src\ofxoscsender.h
+	<string>
+	"OscTypes.h"
+	"OscOutboundPacketStream.h"
+	"ofxOscBundle.h"
+	"ofxOscMessage.h"
+
+1311281700 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\addons\ofxosc\libs\oscpack\include\osc\oscoutboundpacketstream.h
+	"OscTypes.h"
+	"OscException.h"
+
+1319090158 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\bumperbodydata.cpp
+	<iostream>
+	"ofMain.h"
+	"BumperBodyData.h"
+
+1319090181 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\bumperbodydata.h
+
+1319176021 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\contactlistener.cpp
+	"ContactListener.h"
+	"SceneBumpers.h"
+	"BumperBodyData.h"
+	"ofMain.h"
+
+1318765153 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\contactlistener.h
+	"ofMain.h"
+	"Box2D/Box2D.h"
+	<map>
+
+1309804320 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\box2d.h
+	<Box2D/Common/b2Settings.h>
+	<Box2D/Common/b2Draw.h>
+	<Box2D/Common/b2Timer.h>
+	<Box2D/Collision/Shapes/b2CircleShape.h>
+	<Box2D/Collision/Shapes/b2EdgeShape.h>
+	<Box2D/Collision/Shapes/b2ChainShape.h>
+	<Box2D/Collision/Shapes/b2PolygonShape.h>
+	<Box2D/Collision/b2BroadPhase.h>
+	<Box2D/Collision/b2Distance.h>
+	<Box2D/Collision/b2DynamicTree.h>
+	<Box2D/Collision/b2TimeOfImpact.h>
+	<Box2D/Dynamics/b2Body.h>
+	<Box2D/Dynamics/b2Fixture.h>
+	<Box2D/Dynamics/b2WorldCallbacks.h>
+	<Box2D/Dynamics/b2TimeStep.h>
+	<Box2D/Dynamics/b2World.h>
+	<Box2D/Dynamics/Contacts/b2Contact.h>
+	<Box2D/Dynamics/Joints/b2DistanceJoint.h>
+	<Box2D/Dynamics/Joints/b2FrictionJoint.h>
+	<Box2D/Dynamics/Joints/b2GearJoint.h>
+	<Box2D/Dynamics/Joints/b2WheelJoint.h>
+	<Box2D/Dynamics/Joints/b2MouseJoint.h>
+	<Box2D/Dynamics/Joints/b2PrismaticJoint.h>
+	<Box2D/Dynamics/Joints/b2PulleyJoint.h>
+	<Box2D/Dynamics/Joints/b2RevoluteJoint.h>
+	<Box2D/Dynamics/Joints/b2RopeJoint.h>
+	<Box2D/Dynamics/Joints/b2WeldJoint.h>
+	<Box2D/Rope/b2Rope.h>
+
+1314429120 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\common\b2settings.h
+	<cassert>
+	<cmath>
+
+1301254260 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\common\b2draw.h
+	<Box2D/Common/b2Math.h>
+
+1314070620 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\common\b2math.h
+	<Box2D/Common/b2Settings.h>
+	<cmath>
+	<cfloat>
+	<cstddef>
+	<limits>
+
+1309130280 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\common\b2timer.h
+	<Box2D/Common/b2Settings.h>
+
+1300990620 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\collision\shapes\b2circleshape.h
+	<Box2D/Collision/Shapes/b2Shape.h>
+
+1313981340 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\collision\shapes\b2shape.h
+	<Box2D/Common/b2BlockAllocator.h>
+	<Box2D/Common/b2Math.h>
+	<Box2D/Collision/b2Collision.h>
+
+1300990620 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\common\b2blockallocator.h
+	<Box2D/Common/b2Settings.h>
+
+1307305320 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\collision\b2collision.h
+	<Box2D/Common/b2Math.h>
+	<climits>
+
+1312786920 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\collision\shapes\b2edgeshape.h
+	<Box2D/Collision/Shapes/b2Shape.h>
+
+1312786560 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\collision\shapes\b2chainshape.h
+	<Box2D/Collision/Shapes/b2Shape.h>
+
+1300990620 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\collision\shapes\b2polygonshape.h
+	<Box2D/Collision/Shapes/b2Shape.h>
+
+1301264580 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\collision\b2broadphase.h
+	<Box2D/Common/b2Settings.h>
+	<Box2D/Collision/b2Collision.h>
+	<Box2D/Collision/b2DynamicTree.h>
+	<algorithm>
+
+1308987960 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\collision\b2dynamictree.h
+	<Box2D/Collision/b2Collision.h>
+	<Box2D/Common/b2GrowableStack.h>
+
+1300990620 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\common\b2growablestack.h
+	<Box2D/Common/b2Settings.h>
+	<cstring>
+
+1300990620 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\collision\b2distance.h
+	<Box2D/Common/b2Math.h>
+
+1300990620 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\collision\b2timeofimpact.h
+	<Box2D/Common/b2Math.h>
+	<Box2D/Collision/b2Distance.h>
+
+1314072720 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\b2body.h
+	<Box2D/Common/b2Math.h>
+	<Box2D/Collision/Shapes/b2Shape.h>
+	<memory>
+
+1305786720 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\b2fixture.h
+	<Box2D/Dynamics/b2Body.h>
+	<Box2D/Collision/b2Collision.h>
+	<Box2D/Collision/Shapes/b2Shape.h>
+
+1314073560 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\b2worldcallbacks.h
+	<Box2D/Common/b2Settings.h>
+
+1308356160 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\b2timestep.h
+	<Box2D/Common/b2Math.h>
+
+1314570420 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\b2world.h
+	<Box2D/Common/b2Math.h>
+	<Box2D/Common/b2BlockAllocator.h>
+	<Box2D/Common/b2StackAllocator.h>
+	<Box2D/Dynamics/b2ContactManager.h>
+	<Box2D/Dynamics/b2WorldCallbacks.h>
+	<Box2D/Dynamics/b2TimeStep.h>
+
+1300990620 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\common\b2stackallocator.h
+	<Box2D/Common/b2Settings.h>
+
+1300990620 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\b2contactmanager.h
+	<Box2D/Collision/b2BroadPhase.h>
+
+1305786780 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\contacts\b2contact.h
+	<Box2D/Common/b2Math.h>
+	<Box2D/Collision/b2Collision.h>
+	<Box2D/Collision/Shapes/b2Shape.h>
+	<Box2D/Dynamics/b2Fixture.h>
+
+1307305320 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\joints\b2distancejoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1307305320 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\joints\b2joint.h
+	<Box2D/Common/b2Math.h>
+
+1307305320 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\joints\b2frictionjoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1308333120 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\joints\b2gearjoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1307754420 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\joints\b2wheeljoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1307305320 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\joints\b2mousejoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1307305320 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\joints\b2prismaticjoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1314569640 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\joints\b2pulleyjoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1307309340 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\joints\b2revolutejoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1307318820 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\joints\b2ropejoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1307328600 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\dynamics\joints\b2weldjoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1298366520 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\box2d_v2.2.0\box2d\box2d\rope\b2rope.h
+	<Box2D/Common/b2Math.h>
+
+1319176525 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\scenebumpers.h
+	"Scene.h"
+	"ofMain.h"
+	"ContactListener.h"
+	"Box2D/Box2D.h"
+
+1319170991 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\scene.h
+
+1319179947 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\gridball.cpp
+	"GridBall.h"
+	"testApp.h"
+
+1319090335 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\gridball.h
+	"ofMain.h"
+
+1319179957 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\testapp.h
+	"ofMain.h"
+	"Scene.h"
+	"SceneVines.h"
+	"SceneGrid.h"
+	"SceneGalaxy.h"
+	"SceneRipple.h"
+	"SceneLines.h"
+	"SceneBumpers.h"
+	"yaml-cpp/yaml.h"
+
+1319175152 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\scenevines.h
+	"Scene.h"
+	"Box2D/Box2D.h"
+	"Vine.h"
+	"VinesContactLIstener.h"
+	"ofxOsc.h"
+	<vector>
+
+1315543700 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\vine.h
+	"ofMain.h"
+	"Box2D/Box2D.h"
+	"MColor.h"
+
+1315552036 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\mcolor.h
+	"ofMain.h"
+
+1319175202 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\vinescontactlistener.h
+	"ofMain.h"
+	"Box2D/Box2D.h"
+	<map>
+
+1311281700 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\addons\ofxosc\src\ofxosc.h
+	"ofxOscArg.h"
+	"ofxOscMessage.h"
+	"ofxOscSender.h"
+	"ofxOscReceiver.h"
+
+1319104474 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\scenegrid.h
+	"Scene.h"
+	<vector>
+	"ofxOsc.h"
+	"GridBall.h"
+
+1319130014 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\scenegalaxy.h
+	"ofxOsc.h"
+	"Star.h"
+	"Scene.h"
+	<vector>
+
+1317103214 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\star.h
+	"ofMain.h"
+	"MColor.h"
+
+1319173159 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\sceneripple.h
+	"RippleBall.h"
+	"Scene.h"
+	"ofxOsc.h"
+
+1319089755 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\rippleball.h
+	"ofMain.h"
+	"MColor.h"
+	<map>
+
+1319185021 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\scenelines.h
+	<vector>
+	"Line.h"
+	"Scene.h"
+
+1319185011 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\line.h
+	"ofMain.h"
+	"MColor.h"
+	<map>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\include\yaml-cpp\yaml.h
+	"yaml-cpp/parser.h"
+	"yaml-cpp/node.h"
+	"yaml-cpp/stlnode.h"
+	"yaml-cpp/iterator.h"
+	"yaml-cpp/emitter.h"
+	"yaml-cpp/stlemitter.h"
+	"yaml-cpp/exceptions.h"
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\include\yaml-cpp\parser.h
+	"yaml-cpp/dll.h"
+	"yaml-cpp/noncopyable.h"
+	<ios>
+	<memory>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\include\yaml-cpp\dll.h
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\include\yaml-cpp\noncopyable.h
+	"yaml-cpp/dll.h"
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\include\yaml-cpp\node.h
+	"yaml-cpp/conversion.h"
+	"yaml-cpp/dll.h"
+	"yaml-cpp/exceptions.h"
+	"yaml-cpp/iterator.h"
+	"yaml-cpp/ltnode.h"
+	"yaml-cpp/mark.h"
+	"yaml-cpp/noncopyable.h"
+	<iostream>
+	<map>
+	<memory>
+	<string>
+	<vector>
+	"yaml-cpp/nodeimpl.h"
+	"yaml-cpp/nodereadimpl.h"
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\include\yaml-cpp\conversion.h
+	"yaml-cpp/null.h"
+	"yaml-cpp/traits.h"
+	<limits>
+	<string>
+	<sstream>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\include\yaml-cpp\null.h
+	"yaml-cpp/dll.h"
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\include\yaml-cpp\traits.h
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\include\yaml-cpp\exceptions.h
+	"yaml-cpp/mark.h"
+	"yaml-cpp/traits.h"
+	<stdexcept>
+	<string>
+	<sstream>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\include\yaml-cpp\mark.h
+	"yaml-cpp/dll.h"
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\include\yaml-cpp\iterator.h
+	"yaml-cpp/dll.h"
+	<memory>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\include\yaml-cpp\ltnode.h
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\include\yaml-cpp\nodeimpl.h
+	"yaml-cpp/nodeutil.h"
+	<cassert>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\include\yaml-cpp\nodeutil.h
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\include\yaml-cpp\nodereadimpl.h
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\include\yaml-cpp\stlnode.h
+	<vector>
+	<map>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\include\yaml-cpp\emitter.h
+	"yaml-cpp/dll.h"
+	"yaml-cpp/emittermanip.h"
+	"yaml-cpp/ostream.h"
+	"yaml-cpp/noncopyable.h"
+	"yaml-cpp/null.h"
+	<memory>
+	<string>
+	<sstream>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\include\yaml-cpp\emittermanip.h
+	<string>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\include\yaml-cpp\ostream.h
+	<string>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\include\yaml-cpp\stlemitter.h
+	<vector>
+	<list>
+	<set>
+	<map>
+
+1319185048 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\line.cpp
+	"Line.h"
+	"testApp.h"
+
+1315674526 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\mcolor.cpp
+	"MColor.h"
+	<iostream>
+
+1319172720 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\rippleball.cpp
+	"RippleBall.h"
+	"testApp.h"
+	"SceneRipple.h"
+
+1319170996 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\scene.cpp
+	"Scene.h"
+
+1319180029 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\scenebumpers.cpp
+	"SceneBumpers.h"
+	"BumperBodyData.h"
+	"ofxOscReceiver.h"
+	"testApp.h"
+	"ofMain.h"
+	"MColor.h"
+
+1319180011 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\scenegalaxy.cpp
+	"SceneGalaxy.h"
+	"testApp.h"
+
+1319180001 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\scenegrid.cpp
+	"SceneGrid.h"
+	"ofxOsc.h"
+	"MColor.h"
+	"testApp.h"
+
+1319185092 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\scenelines.cpp
+	"SceneLines.h"
+	"testApp.h"
+
+1319180017 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\sceneripple.cpp
+	"SceneRipple.h"
+	"testApp.h"
+
+1319179992 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\scenevines.cpp
+	"SceneVines.h"
+	"testApp.h"
+
+1319129764 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\star.cpp
+	"Star.h"
+	"testApp.h"
+	"SceneGalaxy.h"
+
+1319175448 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\vinescontactlistener.cpp
+	"VinesContactListener.h"
+	"testApp.h"
+	"SceneVines.h"
+
+1319093669 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\vine.cpp
+	"Vine.h"
+	"testApp.h"
+	"SceneVines.h"
+
+1309884492 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\main.cpp
+	"ofMain.h"
+	"testApp.h"
+	"ofAppGlutWindow.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\app\ofappglutwindow.h
+	"ofConstants.h"
+	"ofAppBaseWindow.h"
+	"ofEvents.h"
+	"ofTypes.h"
+
+1311281760 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\openframeworks\app\ofappbasewindow.h
+	"ofPoint.h"
+	"ofTypes.h"
+
+1319185161 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth-win\src\testapp.cpp
+	"testApp.h"
+	"MColor.h"
+	<fstream.h>
+	<iostream.h>
+	<fstream>
+	<iostream>
+
+1319183291 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\bumperbodydata.cpp
+	<iostream>
+	"ofMain.h"
+	"BumperBodyData.h"
+
+1319183299 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\bumperbodydata.h
+
+1319183307 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\contactlistener.cpp
+	"ContactListener.h"
+	"SceneBumpers.h"
+	"BumperBodyData.h"
+	"ofMain.h"
+
+1319183321 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\contactlistener.h
+	"ofMain.h"
+	"Box2D/Box2D.h"
+	<map>
+
+1319183454 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\scenebumpers.h
+	"Scene.h"
+	"ofMain.h"
+	"ContactListener.h"
+	"Box2D/Box2D.h"
+
+1319183433 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\scene.h
+
+1319183336 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\gridball.cpp
+	"GridBall.h"
+	"testApp.h"
+
+1319183347 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\gridball.h
+	"ofMain.h"
+
+1319183556 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\testapp.h
+	"ofMain.h"
+	"Scene.h"
+	"SceneVines.h"
+	"SceneGrid.h"
+	"SceneGalaxy.h"
+	"SceneRipple.h"
+	"SceneLines.h"
+	"SceneBumpers.h"
+	"yaml-cpp/yaml.h"
+
+1319183508 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\scenevines.h
+	"Scene.h"
+	"Box2D/Box2D.h"
+	"Vine.h"
+	"VinesContactLIstener.h"
+	"ofxOsc.h"
+	<vector>
+
+1319183546 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\vine.h
+	"ofMain.h"
+	"Box2D/Box2D.h"
+	"MColor.h"
+
+1315552036 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\mcolor.h
+	"ofMain.h"
+
+1319183532 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\vinescontactlistener.h
+	"ofMain.h"
+	"Box2D/Box2D.h"
+	<map>
+
+1319183483 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\scenegrid.h
+	"Scene.h"
+	<vector>
+	"ofxOsc.h"
+	"GridBall.h"
+
+1319183475 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\scenegalaxy.h
+	"ofxOsc.h"
+	"Star.h"
+	"Scene.h"
+	<vector>
+
+1319183521 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\star.h
+	"ofMain.h"
+	"MColor.h"
+
+1319183500 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\sceneripple.h
+	"RippleBall.h"
+	"Scene.h"
+	"ofxOsc.h"
+
+1319183414 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\rippleball.h
+	"ofMain.h"
+	"MColor.h"
+	<map>
+
+1319186866 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\scenelines.h
+	<vector>
+	"Line.h"
+	"Scene.h"
+
+1319186681 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\line.h
+	"ofMain.h"
+	"MColor.h"
+	<map>
+
+1319186766 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\line.cpp
+	"Line.h"
+	"testApp.h"
+
+1319183387 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\mcolor.cpp
+	"MColor.h"
+	<iostream>
+
+1319183404 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\rippleball.cpp
+	"RippleBall.h"
+	"testApp.h"
+	"SceneRipple.h"
+
+1319183424 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\scene.cpp
+	"Scene.h"
+
+1319183444 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\scenebumpers.cpp
+	"SceneBumpers.h"
+	"BumperBodyData.h"
+	"ofxOscReceiver.h"
+	"testApp.h"
+	"ofMain.h"
+	"MColor.h"
+
+1319183462 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\scenegalaxy.cpp
+	"SceneGalaxy.h"
+	"testApp.h"
+
+1319183478 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\scenegrid.cpp
+	"SceneGrid.h"
+	"ofxOsc.h"
+	"MColor.h"
+	"testApp.h"
+
+1319186656 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\scenelines.cpp
+	"SceneLines.h"
+	"testApp.h"
+
+1319183495 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\sceneripple.cpp
+	"SceneRipple.h"
+	"testApp.h"
+
+1319183505 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\scenevines.cpp
+	"SceneVines.h"
+	"testApp.h"
+
+1319183516 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\star.cpp
+	"Star.h"
+	"testApp.h"
+	"SceneGalaxy.h"
+
+1319183526 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\vinescontactlistener.cpp
+	"VinesContactListener.h"
+	"testApp.h"
+	"SceneVines.h"
+
+1319183539 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\vine.cpp
+	"Vine.h"
+	"testApp.h"
+	"SceneVines.h"
+
+1319183550 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\main.cpp
+	"ofMain.h"
+	"testApp.h"
+	"ofAppGlutWindow.h"
+
+1319187044 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\apps\jtnimoy\bandwidth\src\testapp.cpp
+	"testApp.h"
+	"MColor.h"
+	<fstream>
+	<iostream>
+
+1315981419 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\aliasmanager.cpp
+	"yaml-cpp/aliasmanager.h"
+	"yaml-cpp/node.h"
+	<cassert>
+	<sstream>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\include\yaml-cpp\aliasmanager.h
+	"yaml-cpp/anchor.h"
+	<map>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\include\yaml-cpp\anchor.h
+	<cstddef>
+
+1315981419 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\conversion.cpp
+	"yaml-cpp/conversion.h"
+	<algorithm>
+
+1315981419 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\directives.cpp
+	"directives.h"
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\directives.h
+	<string>
+	<map>
+
+1315981419 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\emitfromevents.cpp
+	"yaml-cpp/emitfromevents.h"
+	"yaml-cpp/emitter.h"
+	"yaml-cpp/null.h"
+	<cassert>
+	<sstream>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\include\yaml-cpp\emitfromevents.h
+	"yaml-cpp/eventhandler.h"
+	<stack>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\include\yaml-cpp\eventhandler.h
+	"yaml-cpp/anchor.h"
+	<string>
+
+1315981419 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\emitter.cpp
+	"yaml-cpp/emitter.h"
+	"emitterstate.h"
+	"emitterutils.h"
+	"indentation.h"
+	"yaml-cpp/exceptions.h"
+	<sstream>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\emitterstate.h
+	"ptr_stack.h"
+	"setting.h"
+	"yaml-cpp/emittermanip.h"
+	<cassert>
+	<vector>
+	<stack>
+	<memory>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\ptr_stack.h
+	"yaml-cpp/noncopyable.h"
+	<cstddef>
+	<cstdlib>
+	<memory>
+	<vector>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\setting.h
+	<memory>
+	<vector>
+	"yaml-cpp/noncopyable.h"
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\emitterutils.h
+	"yaml-cpp/ostream.h"
+	<string>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\indentation.h
+	"yaml-cpp/ostream.h"
+	<iostream>
+
+1315981419 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\emitterstate.cpp
+	"emitterstate.h"
+	"yaml-cpp/exceptions.h"
+
+1315981419 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\emitterutils.cpp
+	"emitterutils.h"
+	"exp.h"
+	"indentation.h"
+	"yaml-cpp/exceptions.h"
+	"stringsource.h"
+	<sstream>
+	<iomanip>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\exp.h
+	"regex.h"
+	<string>
+	<ios>
+	"stream.h"
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\regex.h
+	<vector>
+	<string>
+	"regeximpl.h"
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\regeximpl.h
+	"stream.h"
+	"stringsource.h"
+	"streamcharsource.h"
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\stream.h
+	"yaml-cpp/noncopyable.h"
+	"yaml-cpp/mark.h"
+	<cstddef>
+	<deque>
+	<ios>
+	<iostream>
+	<set>
+	<string>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\stringsource.h
+	<cstddef>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\streamcharsource.h
+	"yaml-cpp/noncopyable.h"
+	<cstddef>
+
+1315981419 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\exp.cpp
+	"exp.h"
+	"yaml-cpp/exceptions.h"
+	<sstream>
+
+1315981419 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\iterator.cpp
+	"yaml-cpp/node.h"
+	"yaml-cpp/exceptions.h"
+	"iterpriv.h"
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\iterpriv.h
+	"yaml-cpp/ltnode.h"
+	<vector>
+	<map>
+
+1315981419 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\node.cpp
+	"yaml-cpp/node.h"
+	"iterpriv.h"
+	"nodebuilder.h"
+	"nodeownership.h"
+	"scanner.h"
+	"tag.h"
+	"token.h"
+	"yaml-cpp/aliasmanager.h"
+	"yaml-cpp/emitfromevents.h"
+	"yaml-cpp/emitter.h"
+	"yaml-cpp/eventhandler.h"
+	<cassert>
+	<stdexcept>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\nodebuilder.h
+	"yaml-cpp/eventhandler.h"
+	<map>
+	<memory>
+	<stack>
+	<vector>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\nodeownership.h
+	"yaml-cpp/noncopyable.h"
+	"ptr_vector.h"
+	<set>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\ptr_vector.h
+	"yaml-cpp/noncopyable.h"
+	<cstddef>
+	<cstdlib>
+	<memory>
+	<vector>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\scanner.h
+	<ios>
+	<string>
+	<queue>
+	<stack>
+	<set>
+	<map>
+	"ptr_vector.h"
+	"stream.h"
+	"token.h"
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\token.h
+	"yaml-cpp/mark.h"
+	<iostream>
+	<string>
+	<vector>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\tag.h
+	<string>
+
+1315981419 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\nodebuilder.cpp
+	"nodebuilder.h"
+	"yaml-cpp/mark.h"
+	"yaml-cpp/node.h"
+	<cassert>
+
+1315981419 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\nodeownership.cpp
+	"nodeownership.h"
+	"yaml-cpp/node.h"
+
+1315981419 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\null.cpp
+	"yaml-cpp/null.h"
+	"yaml-cpp/node.h"
+
+1315981419 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\ostream.cpp
+	"yaml-cpp/ostream.h"
+	<cstring>
+
+1315981419 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\parser.cpp
+	"yaml-cpp/parser.h"
+	"directives.h"
+	"yaml-cpp/eventhandler.h"
+	"yaml-cpp/exceptions.h"
+	"yaml-cpp/node.h"
+	"nodebuilder.h"
+	"scanner.h"
+	"singledocparser.h"
+	"tag.h"
+	"token.h"
+	<sstream>
+	<cstdio>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\singledocparser.h
+	"yaml-cpp/anchor.h"
+	"yaml-cpp/noncopyable.h"
+	<string>
+	<map>
+	<memory>
+
+1315981419 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\regex.cpp
+	"regex.h"
+
+1315981419 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\scanner.cpp
+	"scanner.h"
+	"token.h"
+	"yaml-cpp/exceptions.h"
+	"exp.h"
+	<cassert>
+	<memory>
+
+1315981419 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\scanscalar.cpp
+	"scanscalar.h"
+	"scanner.h"
+	"exp.h"
+	"yaml-cpp/exceptions.h"
+	"token.h"
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\scanscalar.h
+	<string>
+	"regex.h"
+	"stream.h"
+
+1315981419 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\scantag.cpp
+	"scanner.h"
+	"regex.h"
+	"exp.h"
+	"yaml-cpp/exceptions.h"
+
+1315981419 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\scantoken.cpp
+	"scanner.h"
+	"token.h"
+	"yaml-cpp/exceptions.h"
+	"exp.h"
+	"scanscalar.h"
+	"scantag.h"
+	"tag.h"
+	<sstream>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\scantag.h
+	<string>
+	"stream.h"
+
+1315981419 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\simplekey.cpp
+	"scanner.h"
+	"token.h"
+	"yaml-cpp/exceptions.h"
+	"exp.h"
+
+1315981419 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\singledocparser.cpp
+	"singledocparser.h"
+	"collectionstack.h"
+	"directives.h"
+	"yaml-cpp/eventhandler.h"
+	"yaml-cpp/exceptions.h"
+	"scanner.h"
+	"tag.h"
+	"token.h"
+	<sstream>
+	<cstdio>
+	<algorithm>
+
+1315981419 c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\collectionstack.h
+	<stack>
+	<cassert>
+
+1315981419 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\stream.cpp
+	"stream.h"
+	<iostream>
+	"exp.h"
+
+1315981419 source:c:\documents and settings\administrator\desktop\of_prerelease_v007_win_cb\libs\yaml-cpp-0.2.7\src\tag.cpp
+	"tag.h"
+	"directives.h"
+	"token.h"
+	<cassert>
+	<stdexcept>
+

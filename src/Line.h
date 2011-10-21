@@ -13,18 +13,18 @@
  *
  */
 
-#ifndef LINE_H
-#define LINE_H
+#ifndef JTLINE_H
+#define JTLINE_H
 
 #include "ofMain.h"
 #include "MColor.h"
 #include <map>
 using namespace std;
 
-class Line{
+class JTLine{
 public:
-        Line();
-	Line(int xx,int yy);
+        JTLine();
+	JTLine(int xx,int yy);
 	void step();
 	float x;
 	float y;
@@ -52,7 +52,7 @@ public:
     float elevation;
     
     bool pointAbove(float xx,float yy);
-    map<Line*,int> sides;
+    map<JTLine*,int> sides;
     float radius;
     void sound();
     void crossed();

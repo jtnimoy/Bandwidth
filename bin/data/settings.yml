@@ -20,6 +20,9 @@ window shape:
 # default scene upon startup (0-5)
 default scene: 2
 
+# frame rate
+frame rate: 60
+
 # show or hide the 6 scene switcher buttons (number keys will still work)
 show scene switcher: true
 
@@ -52,15 +55,18 @@ help text: |
   Click and drag to explore.
   Press bubbles to change scenes.
   Press Escape to quit.
-  
-  
-  Made possible by the Sandwell Arts Trust
-  Special thanks:
-     the OpenFrameworks project
-     Joss Widdowson
-     Graham Peet
-     Rebecca Shostak
-     the oooShiny group
-     The Public, UK
 
+  Made possible by The Public. UK
+
+  Special Thanks:
+
+  The OpenFrameworks project,
+  Graham Peet
+  Joss Widdowson
+  Rebecca Shostak
+  the oooShiny group
+  Sandwell Arts Trust
+  Fran McHugh  
+  
   Visit http://jtnimoy.net
+
