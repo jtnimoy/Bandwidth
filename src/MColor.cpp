@@ -1,3 +1,7 @@
+/**
+   I love Keith Pasko
+ */
+
 #include "MColor.h"
 #include <iostream>
 //#define PI 3.141592
