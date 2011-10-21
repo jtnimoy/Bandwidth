@@ -1,0 +1,55 @@
+#  ____                  _          _     _ _   _     
+# | __ )  __ _ _ __   __| |_      _(_) __| | |_| |__  
+# |  _ \ / _` | '_ \ / _` \ \ /\ / / |/ _` | __| '_ \ 
+# | |_) | (_| | | | | (_| |\ V  V /| | (_| | |_| | | |
+# |____/ \__,_|_| |_|\__,_| \_/\_/ |_|\__,_|\__|_| |_|
+# 
+
+  BANDWIDTH - a musical experience.
+  jtnimoy,2011
+  
+  INSTRUCTIONS
+  Turn up your sound volume.
+  Click and drag to explore.
+  Press bubbles to change scenes.
+  Press Escape to quit.
+  
+  
+  Made possible by the Sandwell Arts Trust
+  Special thanks:
+     the OpenFrameworks project
+     Joss Widdowson
+     Graham Peet
+     Rebecca Shostak
+     the oooShiny group
+     The Public, UK
+
+  Visit http://jtnimoy.net
+
+----------------------------------------------------
+
+CONFIGURING
+
+  There is a configuration file called settings.yml in the data folder, which
+  allows the app to be configured for installation and performance purposes.
+  Open that file to read the comments provided above each value.
+
+----------------------------------------------------
+
+
+COMPILING
+
+  Get the source from
+    https://github.com/jtnimoy/Bandwidth
+
+  Install OpenFrameworks PreRelease v007
+
+  Create an empty project and add the contents of the src folder to it.
+  Add the contents of the 'data' folder to the project's data folder.
+
+  Getting the project to compile is a matter of downloading and compiling the 2 dependencies:
+
+    Box2D 2.2.0
+      and
+    yaml-cpp 1.2.7
+
