@@ -60,6 +60,8 @@
 		8121A651141DCB6500DD3516 /* ofxOscMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8121A649141DCB6500DD3516 /* ofxOscMessage.cpp */; };
 		8121A652141DCB6500DD3516 /* ofxOscReceiver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8121A64B141DCB6500DD3516 /* ofxOscReceiver.cpp */; };
 		8121A653141DCB6500DD3516 /* ofxOscSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8121A64D141DCB6500DD3516 /* ofxOscSender.cpp */; };
+		81493D3214528CAF002BDF7F /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81493D3114528CAF002BDF7F /* GLUT.framework */; };
+		81493D3414528D22002BDF7F /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 81493D3114528CAF002BDF7F /* GLUT.framework */; };
 		81529676141880820027191E /* Vine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81529675141880820027191E /* Vine.cpp */; };
 		8152983A14189C360027191E /* MColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8152983814189C360027191E /* MColor.cpp */; };
 		816EA872144FFF00007CC492 /* SceneGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 816EA871144FFF00007CC492 /* SceneGrid.cpp */; };
@@ -144,6 +146,19 @@
 			remoteInfo = openFrameworks;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		81493D3314528D18002BDF7F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				81493D3414528D22002BDF7F /* GLUT.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		810657BB144FF33400AA9437 /* Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scene.cpp; sourceTree = "<group>"; };
@@ -266,6 +281,7 @@
 		8121A64C141DCB6500DD3516 /* ofxOscReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxOscReceiver.h; sourceTree = "<group>"; };
 		8121A64D141DCB6500DD3516 /* ofxOscSender.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxOscSender.cpp; sourceTree = "<group>"; };
 		8121A64E141DCB6500DD3516 /* ofxOscSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxOscSender.h; sourceTree = "<group>"; };
+		81493D3114528CAF002BDF7F /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
 		81529674141880820027191E /* Vine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vine.h; sourceTree = "<group>"; };
 		81529675141880820027191E /* Vine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vine.cpp; sourceTree = "<group>"; };
 		8152983814189C360027191E /* MColor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MColor.cpp; sourceTree = "<group>"; };
@@ -276,7 +292,6 @@
 		816EA874145087AC007CC492 /* Star.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Star.h; sourceTree = "<group>"; };
 		816EA88714508BA0007CC492 /* SceneGalaxy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneGalaxy.cpp; sourceTree = "<group>"; };
 		816EA88814508BA0007CC492 /* SceneGalaxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneGalaxy.h; sourceTree = "<group>"; };
-		81A61FED1451E56400A64808 /* Bandwidth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Bandwidth.entitlements; sourceTree = "<group>"; };
 		81CD62601450BBF20086A4FC /* aliasmanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aliasmanager.cpp; sourceTree = "<group>"; };
 		81CD62611450BBF20086A4FC /* collectionstack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collectionstack.h; sourceTree = "<group>"; };
 		81CD62631450BBF20086A4FC /* graphbuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = graphbuilder.cpp; sourceTree = "<group>"; };
@@ -404,6 +419,7 @@
 				E4C2424810CC5A17004149E2 /* Cocoa.framework in Frameworks */,
 				E4C2424910CC5A17004149E2 /* IOKit.framework in Frameworks */,
 				8121A64F141DCB6500DD3516 /* osc.a in Frameworks */,
+				81493D3214528CAF002BDF7F /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -856,7 +872,7 @@
 		E4B69B4A0A3A1720003C02F2 = {
 			isa = PBXGroup;
 			children = (
-				81A61FED1451E56400A64808 /* Bandwidth.entitlements */,
+				81493D3114528CAF002BDF7F /* GLUT.framework */,
 				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
 				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
 				81FDCA7714393A5400FA317D /* icon.icns */,
@@ -902,6 +918,7 @@
 				E4B69B590A3A1756003C02F2 /* Frameworks */,
 				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
 				81FDCA7814393A8200FA317D /* Resources */,
+				81493D3314528D18002BDF7F /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -1110,7 +1127,7 @@
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH)";
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
@@ -1135,7 +1152,8 @@
 					"-D__MACOSX_CORE__",
 					"-lpthread",
 				);
-				SKIP_INSTALL = YES;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
 			};
 			name = Debug;
 		};
@@ -1145,7 +1163,7 @@
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH)";
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
 				COPY_PHASE_STRIP = YES;
 				DEAD_CODE_STRIPPING = YES;
@@ -1172,7 +1190,8 @@
 					"-D__MACOSX_CORE__",
 					"-lpthread",
 				);
-				SKIP_INSTALL = YES;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
 			};
 			name = Release;
 		};
@@ -1180,11 +1199,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"\"$(SYSTEM_APPS_DIR)/of_preRelease_v007_osx/libs/glut/lib/osx\"",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1272,7 +1292,8 @@
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SYSTEM_APPS_DIR)/of_preRelease_v007_osx/addons/ofxJSON/curl/curl-7.21.4/build/i386/lib\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SYSTEM_APPS_DIR)/of_preRelease_v007_osx/addons/ofxJSON/lib/lib/curl-7.21.4/build/universal/lib\"";
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
-				SKIP_INSTALL = YES;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1281,11 +1302,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"\"$(SYSTEM_APPS_DIR)/of_preRelease_v007_osx/libs/glut/lib/osx\"",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -1372,7 +1394,8 @@
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SYSTEM_APPS_DIR)/of_preRelease_v007_osx/addons/ofxJSON/curl/curl-7.21.4/build/i386/lib\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4 = "\"$(SYSTEM_APPS_DIR)/of_preRelease_v007_osx/addons/ofxJSON/lib/lib/curl-7.21.4/build/universal/lib\"";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
